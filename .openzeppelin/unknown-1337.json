@@ -1,0 +1,5101 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x2137E4f23C1796ccC015b91E9C412fC23b0A058e",
+    "txHash": "0xb433327151578179d270169ed6564933cb31ac23ca9d17cefa1976a423d61613"
+  },
+  "proxies": [
+    {
+      "address": "0xAB983be5175915C4802A5f3EA1f684AcD759FcA7",
+      "txHash": "0xce7d75b24edcbfeed720be8b8ce745d4ab607a1275e0039f72842229c8450e44",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5C78a1083E3a71EB005655D10702c7C97627c6E1",
+      "txHash": "0x9fff499f4a33796c3fb3c235f9423945254a2bcadb45a66f3e718b998f500bf0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf09Adc7289E0F82786e0790D463863B56fe3cD33",
+      "txHash": "0xae345c371b5e8b209b7c66f04d2b339fa5d14c8ecaec7bbd62b8cde64ec18421",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x53D865C2B6cFeD801a02329870e0969A68b4156A",
+      "txHash": "0x96f5803f5615627a2261b82dd714f4a0278c0ce522ef5ecc9659ad03ccd4ba42",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9f9ca22bC9989EA11D800e06C383AC23f0Da7819",
+      "txHash": "0xde953fbe12a5d9b2e13dfd0de26a2c3f42c2a9b234535ef52bae81f49f048fd9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x16dbDD67EB6d750fF7846230BE1869d7116543Fc",
+      "txHash": "0x46ebd1b962df1abbf0f063a50043a7e8967ff37c87bb0456159a8a2b8a7dc898",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF0F885f1F957D2b03fcCEc575Aa8e85010f21786",
+      "txHash": "0x4ef7a074f21763e85fd7c9e4ca9e367c4d070d83ca2f92aa63f36fc82612dc48",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9Ff539A7Eb251957500056E659F5188d4aABBb49",
+      "txHash": "0x47683292ad9986cd6f5c7ccc4d3548efb37f33758ac715e404255aa7b6dcdf32",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x61C84aD260013dc33A2eB57AFCaBDEE82f918D41",
+      "txHash": "0x5171a3dd085a1ed2736c3719e48bb835867c653807629f8826179d4d5682d65a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD715B921CEdd3309729e357918aB818841507333",
+      "txHash": "0x2dd1cb5c2bbc83dd67fb851e2988f13f105486d31a9e657f6fdb5d4c199fc015",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1898dE67FF16232D59B73727806beABaB3442C18",
+      "txHash": "0xae7d5f6118297bf8eac2e838357a3f8cb71f604cb58f04d3aae9a0cc956e96ab",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x71Fef3bcA70A23bd9142DC26A5238dA60ef325d8",
+      "txHash": "0xba798c368a25385a403a5b8d2526b08e28ea65a088c928266a4ce92898249bb8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x635B390Ff5C75436580399BB6a82f246BFC81C5B",
+      "txHash": "0xb4faa4719a5ad8048b48ed462aa658ee5678ae7f1d7ebce5cb4c09d9bd8546fe",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDdC6F8dA8470c087D1de2ceAC41d28dAC29aE1AB",
+      "txHash": "0xb01de6851653de80928f8981d13c6bd187b93ca2375b786b18cdb57a86606c26",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x93Fe7Cfa41f2778c084A76Ea37e5212aD72Fa3F3",
+      "txHash": "0xab889113b1b7982de0fce46e5cea3605bdb6741cdc212c7457ed8a748b76b79b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf0a53c03a29B2A4EaCf0063F9039ce95b9F49B2a",
+      "txHash": "0xf3515392f3743b19f132939e69b708d73a1845df74ca99da9469f4e2ce93814c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x65269D33CaaD4c4bB5e3f3A141F93d5798D83900",
+      "txHash": "0x0daa78008ef99caba212da4915a538abedacaae5f6851e5960e6f2efdbdda424",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe53A2D628D07CcD4a62FA045C01C82887d8b0fA6",
+      "txHash": "0x79cb9e75f510cd7ba64a50c9537f4a11c767cf4b05bed2847f553c4c4b666321",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB85869292cE7A2510E3Af580C970397a8b5dcA5E",
+      "txHash": "0x1e82bd788c94f30189fa8f8e539fe79e12b70e60ffff082c84a90af9db86b7f5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8170225c35179690C262D0bdBdF4ABf9C5d68e6D",
+      "txHash": "0xf71afe00736c7d5f936f1f402a99a931a06d7aa5cd9fc5d1748f874af68799fc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC7bb2de827fE6A970CA63911aCBAfFe17A02A8f8",
+      "txHash": "0xe1618c39a02e8e0d2e6aa6dc0dbb71b64b22c3f508266a741588ee1dbd089a45",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x858208C28564d13528ABAed4186CbE81FF3C6Dc7",
+      "txHash": "0xab82ae70def2dc116db80cafda37ec0fc1b562245e121210a713a727f9e4b3a2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCbaA9AC5288475fBca3bb7a4Ee58F4907b5C3af0",
+      "txHash": "0xfb8566e1a3998bdb7bea8bcc516a8c767dbf76cd8ef84068deb1abef951d353d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2bc0Bd1607dE8eb9c9c4871b20CBB84646a59335",
+      "txHash": "0xe56ff7119b928d12f46a9bd72f81e4f49a732b46af17f8e1c4bb817bc1bef596",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8EEC1216dB25fbc2BA96190Ca29a0bF9437a841a",
+      "txHash": "0xd52f78dcd51886befc44186fe3a60291a376b9d7d4353cb22ac99c1b6108998b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x307BCd962AC3ad13Cfe9DF17f55fd6BfeB55Ee37",
+      "txHash": "0x0cd962b4731173d4a653c8a005c5bfa058d1c290ece0c1bde05985291de09850",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x64f970E315DC6909B1AB815c7122722261DdBBdF",
+      "txHash": "0x3ec0969836984597e4d7254f8ad69af15a3d0d81b618b5780039c0679ccf8e03",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5a5985724Ccf94d35ea9E2F8bD9AAB0808CAfe07",
+      "txHash": "0xb8674c1f5dacc75e8acb8a1008a3824c482eb011ff6336f987f08f8b17d2b34e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x76B166f0c50669b4710BC4F852af85bA116cb245",
+      "txHash": "0x5300eded4c4d0f7c519b8cabd51994d640a16f9dac92dde5dac8400756f853a4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4571E2459b5f84940Aab184b88fb3966Cd07807E",
+      "txHash": "0x47821566379aae15442814ab4731da49227cb1728d89a0334f0fc689f0d1b9d5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x623aDcdEA5e1c85c0c487E6a77886834013C88fb",
+      "txHash": "0x0fd6716bda848a9e7f9ff9115f2715be11a0f2ded7823d198a22156187da8c4a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8b54A9D6BA65a7ccdC86de9e82061A2435650920",
+      "txHash": "0xb2fe6fcf53e99d408d1e1bf2eda7444f72ce2d6cb0dd640a2c893eaff71d8f97",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2B37bB7926b49bc37dAA225F43B7166EBD0B02b1",
+      "txHash": "0x68d0b93c3f99c3786f9692b411d213eb70a053448afe370c2167f1c7fc41e0af",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x42C1c9ab8Bc1C0f4292a816E82487E99fe322d29",
+      "txHash": "0xb572431ec3d7253737b1d8a8c77a9856137db28035c22d6bcbfbebe31a369b10",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x44bf9fB83F056Eb55f72065190456923fBE3401e",
+      "txHash": "0xaa5157168ac993e9c5f75599ed89d06e908978c344a4d2c2c6ddb18a3d7111fe",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x45da252B8Bc14f70fE4FCAeFaDD270A43D77A9F2",
+      "txHash": "0x7c1cae11127c1b50aea8f8b932b04bda31dd85ec0649a731d37be5ac74b13983",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6206Db766C260440D43d1dc0966858EaE416711F",
+      "txHash": "0x9f2a74ff1d818606756741c91528f3021a7f1342d4f6558933675318f1e19383",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB5245E773Ed40a5adbcb3D5E8D41685527Ad0e81",
+      "txHash": "0xf04f96ccd2e5848d06310aa0fe3218de37a6b2348b95655b2e105b699a2a0f8b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x11905CFa277b63f94bb11f923fd4919f786A21Bd",
+      "txHash": "0xa1cc7fda79be48776fbb86df892f8a05abc02c87b123684c143c29b0d522cf8a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1882624DE7106e8dAC356d7a34766A582bA488D3",
+      "txHash": "0x3e28af59c99f7d228bc281e57c8c31a0c7343efe16b556a0f7b0461586a2d705",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x95228Fe5a127aD4d5c298C3504A9fbC04fEaA8AE",
+      "txHash": "0x62c016d88b33fa2fd5034face5bf8e0b3dbb14cd0b2e6d78c6d79f6255791cb1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x047CA79A46ce435533c1A69A708C4B87eabfa596",
+      "txHash": "0xe9740bf98f01cdf7306968895041e91bca29f1cb850e2f45b5546a332880d004",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8c6BAc8d73f7b6B5C4A03AacB0d7ffae8d95b7Bb",
+      "txHash": "0xe5d7af8dcc2c841d0caff498824878121b76f66a1ff97658c1a8075b72fe5b5e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a88aefa0831963a2bc594b700dbb214335cec1deb85265270dc71e89015665cf": {
+      "address": "0x9fA92d3AFe35a655C8A505d44FD7A26329Da0d4A",
+      "txHash": "0xd5e2f81860f44b1dcbe3be64efb3ba5fdc8dff49940926d5368d1f3954f1c514",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1176_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          }
+        ],
+        "types": {
+          "t_mapping(t_bytes32,t_struct(RoleData)1176_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1176_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "ddcd94bea4df0598b401d29e6a4a1452331143192e9571474aca5cb83d411688": {
+      "address": "0x5A55DC2fB4a23f5ec5558F01DdA73174224f1751",
+      "txHash": "0x10d378fabf557787df6511212f90de8d975a10f26871b55cb144c6b7c6345276",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "governanceToken",
+            "type": "t_contract(IERC20Upgradeable)2148",
+            "src": "CatanKeeper.sol:11"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "twoPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:79"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "threePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:80"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fourPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:81"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fivePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:82"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "sixPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:83"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedTwoPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(TwoPlayerGame)32_storage)",
+            "src": "CatanKeeper.sol:85"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedThreePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(ThreePlayerGame)47_storage)",
+            "src": "CatanKeeper.sol:86"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFourPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FourPlayerGame)66_storage)",
+            "src": "CatanKeeper.sol:87"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFivePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FivePlayerGame)89_storage)",
+            "src": "CatanKeeper.sol:88"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedSixPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(SixPlayerGame)116_storage)",
+            "src": "CatanKeeper.sol:89"
+          }
+        ],
+        "types": {
+          "t_contract(IERC20Upgradeable)2148": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(TwoPlayerGame)32_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.TwoPlayerGame)"
+          },
+          "t_struct(TwoPlayerGame)32_storage": {
+            "label": "struct CatanKeeper.TwoPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_uint256,t_struct(ThreePlayerGame)47_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.ThreePlayerGame)"
+          },
+          "t_struct(ThreePlayerGame)47_storage": {
+            "label": "struct CatanKeeper.ThreePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FourPlayerGame)66_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FourPlayerGame)"
+          },
+          "t_struct(FourPlayerGame)66_storage": {
+            "label": "struct CatanKeeper.FourPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FivePlayerGame)89_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FivePlayerGame)"
+          },
+          "t_struct(FivePlayerGame)89_storage": {
+            "label": "struct CatanKeeper.FivePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(SixPlayerGame)116_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.SixPlayerGame)"
+          },
+          "t_struct(SixPlayerGame)116_storage": {
+            "label": "struct CatanKeeper.SixPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_6",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_6_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "c599ac1eb87e469d56d6e598a87ed190e443759322870a1b2cc3719e4da8bc72": {
+      "address": "0x1cDF2C3F56d8065516cC0a8f86fa02A9ea2a1E67",
+      "txHash": "0x391aaa31bfda158c110654ad9d0bf35046d2606254bcafff61830c2cb83425d4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1099_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1099_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1099_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "28ef0a2c24426eefeca1c1e3372040343c2dcde0dfaecd089f1bad483a467263": {
+      "address": "0x70beef7C027E1E1A8349627bD935e3473A118060",
+      "txHash": "0x5b6b051a855437452b5650197dbb5415f550ae0a3deed3c10b4f2bb403f7d544",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1121_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1121_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1121_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "e85cfd57517cc0fc7644a6552aad22bc0727a9570263434b697607fedff421a9": {
+      "address": "0x941E1383da5df34cC4E8E9B3ae5F9cDAFc0c59E5",
+      "txHash": "0x9c8325af9979e50301e287e4b5ec8cf594b0928365b610d70c61f62cace4c2a6",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1202_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1202_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1202_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "9241d199279ce52da37c00f9f84705dd319b14e4f7c2fb7d435458020c00441b": {
+      "address": "0x110BB4827c9d9F893405142d3bC350d95A961f9F",
+      "txHash": "0xd407ee8ee940c0faceb859112f49d3951a44847b29917737041b2c5ddc037279",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1240_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1240_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1240_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "9f61eaed931e3d5792d4ba0902601a5e847394a3b38a3e8ea76ee78f95df4ef2": {
+      "address": "0xf1619203BaCF677fBB0eF1170909Da0C8BcB7d93",
+      "txHash": "0xdd4f613d52465cdfdd679d3f6d225b5d12559580fa1c4f3f5d5355c3768cc7ca",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1241_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1241_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1241_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "c0c462562be1f78f10596248e598e128f666b488bca6e4c1eb729aa8011de099": {
+      "address": "0xCa1097fD9bF8214524e1c62CBB6f533416B5dDdd",
+      "txHash": "0x0aa8e763d4d005896a949fe0ae9c8f46f5e21736c8590ad333d4081cc81b39d3",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1239_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1239_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1239_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "90afc3cbd133721cbca4ff0bd8a7cce3fd1e83b0823fe4f790d5d524732da3cb": {
+      "address": "0xF161db4F3057C7C749D036e8F906CeDB1Fa4Cdf6",
+      "txHash": "0x9d2edce145b0ded6edee0fac3f59726708b912bf08a285aa56a4c9a6f41f9e3e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1226_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1226_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1226_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "bab01d3369b362b332e11500f88f85e961bfdba10adc559f19a88612ccc3110d": {
+      "address": "0x2e115F68B97e1abc3ac407faE659B25eeCA583D2",
+      "txHash": "0xe3d6299f3d52eb20affc4fbc808a9a6ad0e7a9b782bccfe33635ab7efe9fdfab",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1228_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)328_storage)",
+            "src": "CatanstitutionVotingRights.sol:28"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))",
+            "src": "CatanstitutionVotingRights.sol:29"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "voters",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "CatanstitutionVotingRights.sol:32"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:33"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:36"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatanVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:37"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:38"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVotes",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "CatanstitutionVotingRights.sol:40"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitutionVoteCounts",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "CatanstitutionVotingRights.sol:41"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_address",
+            "src": "CatanstitutionVotingRights.sol:42"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)328_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)328_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)312"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)312": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)328_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)316))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)316)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)316": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1228_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1228_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "1a2a5db3a0d117f9b9f176394a284990a74390aa8c50e21197b68dcc324ea535": {
+      "address": "0x2381575c09E85d2057143de5f63f7aa42553A0dD",
+      "txHash": "0x00521d2f5a2a659c928559959c5a12a4e3268a64fe6608df64fac389bf19cd9c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1169_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:14"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:15"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1056",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1056",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1056": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1169_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1169_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "e4c5522a5869919ebd3634e611bc7f45de4e52623bc5b96a26a70c87374a8da1": {
+      "address": "0x5dB28820ebe7770f8e56eE65Fa3DD5745cf3f844",
+      "txHash": "0xe77da6e4564d7daa0172233b8012e6f566b9328837a1e9697611709cce74f77e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC165Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)1185_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:14"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:15"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1072",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1072",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1072": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)1185_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)1185_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          }
+        }
+      }
+    },
+    "bfbeb88e5313ae88522ffe9bfdb80d9a10e4537c52fd79b4b76eadb4133e2f20": {
+      "address": "0x99Eb26588138e419B7353bDDF1862E071c4bFEb7",
+      "txHash": "0xc3b6dea2ea29b8f747de4d89a28bcb9a68090b24c3174f6780acea1921636d8f",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:11"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:12"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1069",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1069",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1069": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "69cda4229bfd6fb994da73334cfa37dd562fa636a070a1509fa1deac7414e1a1": {
+      "address": "0x94DF85a2943F014CAd8E1221C083Ac3414c450fb",
+      "txHash": "0x52648f2ddb04b30dbc4b7fdd40d063a4b8dd071aaebe723f0800647db603d7a1",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:11"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:12"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1081",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1081",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1081": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "b0b44835ccb200aa77d19a2fbf812280d9fd5bcbeb2f0bce60047b24a3c3e816": {
+      "address": "0x018383E30f2934D90dF57d8B1F0Fb9c1bd9485c6",
+      "txHash": "0xff49dca1549867a5e8c4fa4edc1c81b110d704020a97604409e614e67f6167dd",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:11"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:12"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1083",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1083",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1083": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "3584746ef84f4e8c89b8c2241f7b5ae9aef4df4afde23c801c6d93b608343d38": {
+      "address": "0xa7C249fD98FbaB0BE96BADcE9eD36b0f2B33472A",
+      "txHash": "0x18d18e9202ab2c67abb7bf5cf521bce5a25e04db85a9c1fb57f45139ea0d7f0d",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:11"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:12"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:13"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)1063",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)1063",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)319_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitle)1063": {
+            "label": "contract FluidVoteTitle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)319_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)319_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)303"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)303": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)319_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)307))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)307)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)307": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "1b4718dc5b4d344416dd8c17f951a9c462e895c58dd2dda40f220d0c31a7cafa": {
+      "address": "0x0Ea998d59A278F6e614d00219AdF6D415308460C",
+      "txHash": "0xac0688e57d8a3d981154667b2ddbee7ce62e3fcf58e6df8d3bc3e39b760a5079",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol:310"
+          },
+          {
+            "contract": "ERC20BurnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol:48"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "numVoters",
+            "type": "t_uint256",
+            "src": "open-orgs/ERC20VoterToken.sol:10"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrations",
+            "type": "t_mapping(t_uint256,t_address)",
+            "src": "open-orgs/ERC20VoterToken.sol:11"
+          },
+          {
+            "contract": "ERC20VoterToken",
+            "label": "voterRegistrationIndexes",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "open-orgs/ERC20VoterToken.sol:12"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitleV1)2161",
+            "src": "CatanstitutionVotingRights.sol:9"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitleV1)2161",
+            "src": "CatanstitutionVotingRights.sol:10"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numAcceptedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:24"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "numProposedAmendments",
+            "type": "t_uint256",
+            "src": "CatanstitutionVotingRights.sol:25"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "catanstitution",
+            "type": "t_mapping(t_uint256,t_struct(Amendment)868_storage)",
+            "src": "CatanstitutionVotingRights.sol:26"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposals",
+            "type": "t_mapping(t_address,t_struct(Amendment)868_storage)",
+            "src": "CatanstitutionVotingRights.sol:27"
+          },
+          {
+            "contract": "CatanstitutionVotingRights",
+            "label": "proposalVotes",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)856))",
+            "src": "CatanstitutionVotingRights.sol:28"
+          }
+        ],
+        "types": {
+          "t_contract(FluidVoteTitleV1)2161": {
+            "label": "contract FluidVoteTitleV1"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Amendment)868_storage)": {
+            "label": "mapping(uint256 => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_struct(Amendment)868_storage": {
+            "label": "struct CatanstitutionVotingRights.Amendment",
+            "members": [
+              {
+                "label": "amendmentNum",
+                "type": "t_uint256"
+              },
+              {
+                "label": "text",
+                "type": "t_string_storage"
+              },
+              {
+                "label": "author",
+                "type": "t_address"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(AmendmentStatus)852"
+              },
+              {
+                "label": "numVotes",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_enum(AmendmentStatus)852": {
+            "label": "enum CatanstitutionVotingRights.AmendmentStatus",
+            "members": [
+              "PASSED",
+              "FAILED",
+              "PROPOSED"
+            ]
+          },
+          "t_mapping(t_address,t_struct(Amendment)868_storage)": {
+            "label": "mapping(address => struct CatanstitutionVotingRights.Amendment)"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)856))": {
+            "label": "mapping(address => mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus))"
+          },
+          "t_mapping(t_uint256,t_enum(VoteStatus)856)": {
+            "label": "mapping(uint256 => enum CatanstitutionVotingRights.VoteStatus)"
+          },
+          "t_enum(VoteStatus)856": {
+            "label": "enum CatanstitutionVotingRights.VoteStatus",
+            "members": [
+              "NOT_VOTED",
+              "FOR",
+              "AGAINST"
+            ]
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "4e0ecc5fe40f628b7164cb02c19cca860958860b9b2ae1931280361dd17dbe03": {
+      "address": "0xa387f9518f76365a5d3B2169EFC4A80bd4F68604",
+      "txHash": "0x3ad1a585d7551e59d8216c7bce0b960e78aea88e9b8ea9bf8e6dae6cfad7964e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "governanceToken",
+            "type": "t_contract(IERC20Upgradeable)4498",
+            "src": "CatanKeeper.sol:11"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "twoPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:79"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "threePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:80"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fourPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:81"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fivePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:82"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "sixPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:83"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedTwoPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(TwoPlayerGame)32_storage)",
+            "src": "CatanKeeper.sol:85"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedThreePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(ThreePlayerGame)47_storage)",
+            "src": "CatanKeeper.sol:86"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFourPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FourPlayerGame)66_storage)",
+            "src": "CatanKeeper.sol:87"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFivePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FivePlayerGame)89_storage)",
+            "src": "CatanKeeper.sol:88"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedSixPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(SixPlayerGame)116_storage)",
+            "src": "CatanKeeper.sol:89"
+          }
+        ],
+        "types": {
+          "t_contract(IERC20Upgradeable)4498": {
+            "label": "contract IERC20Upgradeable"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(TwoPlayerGame)32_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.TwoPlayerGame)"
+          },
+          "t_struct(TwoPlayerGame)32_storage": {
+            "label": "struct CatanKeeper.TwoPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_uint256,t_struct(ThreePlayerGame)47_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.ThreePlayerGame)"
+          },
+          "t_struct(ThreePlayerGame)47_storage": {
+            "label": "struct CatanKeeper.ThreePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FourPlayerGame)66_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FourPlayerGame)"
+          },
+          "t_struct(FourPlayerGame)66_storage": {
+            "label": "struct CatanKeeper.FourPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FivePlayerGame)89_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FivePlayerGame)"
+          },
+          "t_struct(FivePlayerGame)89_storage": {
+            "label": "struct CatanKeeper.FivePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(SixPlayerGame)116_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.SixPlayerGame)"
+          },
+          "t_struct(SixPlayerGame)116_storage": {
+            "label": "struct CatanKeeper.SixPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_6",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_6_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "87655d37064fdf033ef4f3e4697f4df70ac1ba2b12fda4d50c09f0d5e5536fc2": {
+      "address": "0x77FB009415D05D2896a7fcbd0c2356F42c44C2e5",
+      "txHash": "0xa48f08c421aa2e121d24957a0bdeddd0158a103d6328878aff3a44aa4bf46b7a",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "twoPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:70"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "threePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:71"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fourPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:72"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "fivePlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:73"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "sixPlayerGameId",
+            "type": "t_uint256",
+            "src": "CatanKeeper.sol:74"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedTwoPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(TwoPlayerGame)15_storage)",
+            "src": "CatanKeeper.sol:76"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedThreePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(ThreePlayerGame)30_storage)",
+            "src": "CatanKeeper.sol:77"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFourPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FourPlayerGame)49_storage)",
+            "src": "CatanKeeper.sol:78"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedFivePlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(FivePlayerGame)72_storage)",
+            "src": "CatanKeeper.sol:79"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "recordedSixPlayerGames",
+            "type": "t_mapping(t_uint256,t_struct(SixPlayerGame)99_storage)",
+            "src": "CatanKeeper.sol:80"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(TwoPlayerGame)15_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.TwoPlayerGame)"
+          },
+          "t_struct(TwoPlayerGame)15_storage": {
+            "label": "struct CatanKeeper.TwoPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_uint256,t_struct(ThreePlayerGame)30_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.ThreePlayerGame)"
+          },
+          "t_struct(ThreePlayerGame)30_storage": {
+            "label": "struct CatanKeeper.ThreePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FourPlayerGame)49_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FourPlayerGame)"
+          },
+          "t_struct(FourPlayerGame)49_storage": {
+            "label": "struct CatanKeeper.FourPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(FivePlayerGame)72_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.FivePlayerGame)"
+          },
+          "t_struct(FivePlayerGame)72_storage": {
+            "label": "struct CatanKeeper.FivePlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_mapping(t_uint256,t_struct(SixPlayerGame)99_storage)": {
+            "label": "mapping(uint256 => struct CatanKeeper.SixPlayerGame)"
+          },
+          "t_struct(SixPlayerGame)99_storage": {
+            "label": "struct CatanKeeper.SixPlayerGame",
+            "members": [
+              {
+                "label": "player_1",
+                "type": "t_address"
+              },
+              {
+                "label": "player_2",
+                "type": "t_address"
+              },
+              {
+                "label": "player_3",
+                "type": "t_address"
+              },
+              {
+                "label": "player_4",
+                "type": "t_address"
+              },
+              {
+                "label": "player_5",
+                "type": "t_address"
+              },
+              {
+                "label": "player_6",
+                "type": "t_address"
+              },
+              {
+                "label": "player_1_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_2_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_3_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_4_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_5_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "player_6_vp",
+                "type": "t_uint8"
+              },
+              {
+                "label": "variation",
+                "type": "t_string_storage"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}

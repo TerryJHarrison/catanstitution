@@ -1,0 +1,651 @@
+{
+  "contractName": "TitleAccess",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/TitleAccess.sol\":\"TitleAccess\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3},\"remappings\":[]},\"sources\":{\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/SingleHolderTitle.sol\":{\"keccak256\":\"0x29fefd90c67b59829d5313a9996731c8b859425d609ada65599a4495b3998d09\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5da1b4a7bcdfff6add0773b4f44cb855e76b23ca01745dda1f2a2c7a40a68ba9\",\"dweb:/ipfs/QmaDpvfkPRoRMF6c1c4a92qpA7RgRZy5Di2CwmZYbH7htR\"]},\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/TitleAccess.sol\":{\"keccak256\":\"0xb918196959a51cacb16c158b89b43750eb1636378c5f56d8ed742e7e065b53d0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cb8fea807987ed828ae8c60802e88fbf19b7213b9427d3270c38b81d43b5bb19\",\"dweb:/ipfs/QmbPb1Nwdw6mGZPD4H3sGaw94PxTLpv36Zi2wfBGm3mV7N\"]},\"@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol\":{\"keccak256\":\"0x719f71989e630280a6902f857ef2b038d761ef2d0d51611f9da463be6c7c4be5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eada89c17578d8ffbadd76c7247397d37ccae1f8e0e2b6d26057117d3de2dbed\",\"dweb:/ipfs/QmS3zjZ5SdridEYWAaS7RXtRB9YnKVmN3T5Lq2Q7rjz2oT\"]},\"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\":{\"keccak256\":\"0x67d2f282a9678e58e878a0b774041ba7a01e2740a262aea97a3f681339914713\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://297df5725003e586651278a5d021b176457c5bb05a954c8490f21db2754e7352\",\"dweb:/ipfs/QmSe9AHjVnDn39NqT9hkjuCCGUwtc989WuZ5rWTe3GHrUD\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol\":{\"keccak256\":\"0x2ab92ebd3f4d4d85f30b39bd678ec3489e00aadd0a432c7a0ffa98adc2799004\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be8cf7c576f06ed9bd8b0be5a430abb32d3469b83481adbf913ab0bdaddfa277\",\"dweb:/ipfs/QmUG2QE27xtJnMz4uE3Vs6TRUzHvttHEU1vxTBzANUkWSV\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol\":{\"keccak256\":\"0x33620beff0655c5e728a72fff76fb6ce2dc32fc6b61eb8e435b12ed1adf31525\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6b88aa0f47c7cea8e39cbf6025935242c0466a8b68d2d3bf5efc6d5d31185dc2\",\"dweb:/ipfs/QmPfTy74xdPaHJx6RuEz4LorCsSeMndeffZqvEspACjjQj\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol\":{\"keccak256\":\"0x9ef7f2874f4a491f253a81eb4c5b9a7b6467a287aa0c32ac3dd684260a3cd7ad\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://665e87b1b3174681684da2e4074d48c47f0ae029be3b6d8c6dd958c8b82a3910\",\"dweb:/ipfs/QmNdJ4gAeM1STX4WH69va4WJh41enhjyr6XPg6iaMeE7Gw\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol\":{\"keccak256\":\"0x64581a092c059ab0cb74f473545e379b8a88f36a6a57f805515ef8c6ae061847\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7ee9823850f7757295f1bfde9691b6268c1c82d1cb3bb15bcbc3dae8f282071c\",\"dweb:/ipfs/QmbFusD9jZu7wsNZiVygaGeFxr1ZEB16HjAm1gQZyt234x\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0x5642ae1d6b33c5c0b71a8412c6c64cbcf2468b84a002bee3e33cdb5644d25cdb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://07ba474854eacf022fca2ab63af2b09653f476a9ef2d144ea3d022a0c0b92726\",\"dweb:/ipfs/QmVNfrArMejFSrPMktAtDte64FJ2fGPQHqgSXDz2SH6dse\"]},\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\":{\"keccak256\":\"0x8e9eb503de1189f50c5f16fef327da310b11898d6b9ab3ca937df07c35233b9e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9631a7abcad07067f268b6295668a287e205ea9a8dc0fca02c2bf4db6c39431d\",\"dweb:/ipfs/QmUYFfB2AngTZLEsah4u8Z44riaB6yWkUXeasi1oG7ipfS\"]},\"@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol\":{\"keccak256\":\"0x6964377da5c19ade6b3e96bae0c0e82494d518af70cf12d2cdb3276f78fb3d85\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6fdcd89cc451559fcf17eb5b0a657a4d6217809603ece8439f933f836521f31f\",\"dweb:/ipfs/QmU75qTF1VG5KUaxZv2TrFYDPLmkraeTdmAG4P4j1ehoa6\"]},\"@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol\":{\"keccak256\":\"0x17c9c5d2d6b56527215ee7b3da6dde66b6f23f1b3d5c66cc436e753ef349a97a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dd7c775bc6000f44c048796b5e013dbb3ec7592986bc289868b19ff9439ee31d\",\"dweb:/ipfs/QmSuBfTT9z9sEpmEcGihEc5DJGsXery8QyyuNfvub875ej\"]},\"@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol\":{\"keccak256\":\"0x1c4860acd323e34a67b3e97faab9aaa55fe8e92b1dcf08b5f47f3468d58ce75c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3c2746f8ebb4bfb6b8e8a768296c7f85f11b36f4873daabb91933c3602f00590\",\"dweb:/ipfs/QmdumDez8WEdk9FDuP7Jp5pDSJiQeFtFSJw3B5CEHJL4KU\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"./SingleHolderTitle.sol\";\n\ninterface TitleAccess {\n    modifier onlyTitleHolder(SingleHolderTitle title) {\n        require(msg.sender == title.holder(), \"Not title holder\");\n        _;\n    }\n}\n",
+  "sourcePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/TitleAccess.sol",
+  "ast": {
+    "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/TitleAccess.sol",
+    "exportedSymbols": {
+      "AccessControlUpgradeable": [
+        2585
+      ],
+      "AddressUpgradeable": [
+        5845
+      ],
+      "ContextUpgradeable": [
+        5890
+      ],
+      "ERC165Upgradeable": [
+        6139
+      ],
+      "ERC721Upgradeable": [
+        5440
+      ],
+      "IAccessControlUpgradeable": [
+        2234
+      ],
+      "IERC165Upgradeable": [
+        6151
+      ],
+      "IERC721MetadataUpgradeable": [
+        5601
+      ],
+      "IERC721ReceiverUpgradeable": [
+        5458
+      ],
+      "IERC721Upgradeable": [
+        5574
+      ],
+      "Initializable": [
+        2631
+      ],
+      "SingleHolderTitle": [
+        1623
+      ],
+      "StringsUpgradeable": [
+        6093
+      ],
+      "TitleAccess": [
+        1644
+      ]
+    },
+    "id": 1645,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1625,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:23:6"
+      },
+      {
+        "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/SingleHolderTitle.sol",
+        "file": "./SingleHolderTitle.sol",
+        "id": 1626,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1645,
+        "sourceUnit": 1624,
+        "src": "56:33:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "id": 1644,
+        "linearizedBaseContracts": [
+          1644
+        ],
+        "name": "TitleAccess",
+        "nameLocation": "101:11:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1642,
+              "nodeType": "Block",
+              "src": "169:85:6",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 1637,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "expression": {
+                            "id": 1632,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 4294967281,
+                            "src": "187:3:6",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 1633,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "src": "187:10:6",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "id": 1634,
+                              "name": "title",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 1629,
+                              "src": "201:5:6",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                                "typeString": "contract SingleHolderTitle"
+                              }
+                            },
+                            "id": 1635,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "holder",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 1622,
+                            "src": "201:12:6",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_address_$",
+                              "typeString": "function () external returns (address)"
+                            }
+                          },
+                          "id": 1636,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "201:14:6",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "187:28:6",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4e6f74207469746c6520686f6c646572",
+                        "id": 1638,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "217:18:6",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e5af7803b43227cf963fe0b99726899f882ff82b836a51af0d82ccde95c58c1a",
+                          "typeString": "literal_string \"Not title holder\""
+                        },
+                        "value": "Not title holder"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_e5af7803b43227cf963fe0b99726899f882ff82b836a51af0d82ccde95c58c1a",
+                          "typeString": "literal_string \"Not title holder\""
+                        }
+                      ],
+                      "id": 1631,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
+                      "referencedDeclaration": 4294967278,
+                      "src": "179:7:6",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 1639,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "179:57:6",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1640,
+                  "nodeType": "ExpressionStatement",
+                  "src": "179:57:6"
+                },
+                {
+                  "id": 1641,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "246:1:6"
+                }
+              ]
+            },
+            "id": 1643,
+            "name": "onlyTitleHolder",
+            "nameLocation": "128:15:6",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 1630,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1629,
+                  "mutability": "mutable",
+                  "name": "title",
+                  "nameLocation": "162:5:6",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1643,
+                  "src": "144:23:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                    "typeString": "contract SingleHolderTitle"
+                  },
+                  "typeName": {
+                    "id": 1628,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1627,
+                      "name": "SingleHolderTitle",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1623,
+                      "src": "144:17:6"
+                    },
+                    "referencedDeclaration": 1623,
+                    "src": "144:17:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                      "typeString": "contract SingleHolderTitle"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "143:25:6"
+            },
+            "src": "119:135:6",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 1645,
+        "src": "91:165:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "31:226:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/TitleAccess.sol",
+    "exportedSymbols": {
+      "AccessControlUpgradeable": [
+        2585
+      ],
+      "AddressUpgradeable": [
+        5845
+      ],
+      "ContextUpgradeable": [
+        5890
+      ],
+      "ERC165Upgradeable": [
+        6139
+      ],
+      "ERC721Upgradeable": [
+        5440
+      ],
+      "IAccessControlUpgradeable": [
+        2234
+      ],
+      "IERC165Upgradeable": [
+        6151
+      ],
+      "IERC721MetadataUpgradeable": [
+        5601
+      ],
+      "IERC721ReceiverUpgradeable": [
+        5458
+      ],
+      "IERC721Upgradeable": [
+        5574
+      ],
+      "Initializable": [
+        2631
+      ],
+      "SingleHolderTitle": [
+        1623
+      ],
+      "StringsUpgradeable": [
+        6093
+      ],
+      "TitleAccess": [
+        1644
+      ]
+    },
+    "id": 1645,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1625,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:23:6"
+      },
+      {
+        "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/SingleHolderTitle.sol",
+        "file": "./SingleHolderTitle.sol",
+        "id": 1626,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1645,
+        "sourceUnit": 1624,
+        "src": "56:33:6",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": true,
+        "id": 1644,
+        "linearizedBaseContracts": [
+          1644
+        ],
+        "name": "TitleAccess",
+        "nameLocation": "101:11:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1642,
+              "nodeType": "Block",
+              "src": "169:85:6",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 1637,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "expression": {
+                            "id": 1632,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 4294967281,
+                            "src": "187:3:6",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 1633,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "src": "187:10:6",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "id": 1634,
+                              "name": "title",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 1629,
+                              "src": "201:5:6",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                                "typeString": "contract SingleHolderTitle"
+                              }
+                            },
+                            "id": 1635,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "holder",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 1622,
+                            "src": "201:12:6",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_nonpayable$__$returns$_t_address_$",
+                              "typeString": "function () external returns (address)"
+                            }
+                          },
+                          "id": 1636,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "201:14:6",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "187:28:6",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "4e6f74207469746c6520686f6c646572",
+                        "id": 1638,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "217:18:6",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_e5af7803b43227cf963fe0b99726899f882ff82b836a51af0d82ccde95c58c1a",
+                          "typeString": "literal_string \"Not title holder\""
+                        },
+                        "value": "Not title holder"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_e5af7803b43227cf963fe0b99726899f882ff82b836a51af0d82ccde95c58c1a",
+                          "typeString": "literal_string \"Not title holder\""
+                        }
+                      ],
+                      "id": 1631,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
+                      "referencedDeclaration": 4294967278,
+                      "src": "179:7:6",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 1639,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "179:57:6",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1640,
+                  "nodeType": "ExpressionStatement",
+                  "src": "179:57:6"
+                },
+                {
+                  "id": 1641,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "246:1:6"
+                }
+              ]
+            },
+            "id": 1643,
+            "name": "onlyTitleHolder",
+            "nameLocation": "128:15:6",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 1630,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1629,
+                  "mutability": "mutable",
+                  "name": "title",
+                  "nameLocation": "162:5:6",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1643,
+                  "src": "144:23:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                    "typeString": "contract SingleHolderTitle"
+                  },
+                  "typeName": {
+                    "id": 1628,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1627,
+                      "name": "SingleHolderTitle",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1623,
+                      "src": "144:17:6"
+                    },
+                    "referencedDeclaration": 1623,
+                    "src": "144:17:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_SingleHolderTitle_$1623",
+                      "typeString": "contract SingleHolderTitle"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "143:25:6"
+            },
+            "src": "119:135:6",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 1645,
+        "src": "91:165:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "31:226:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.6+commit.11564f7e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-10T17:26:07.568Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
