@@ -8,13 +8,13 @@ contract SingleHolderTitle is ERC721Upgradeable, AccessControlUpgradeable {
 
     bytes32 public constant TITLE_OPERATOR = keccak256("TITLE_OPERATOR");
 
-    function initialize(string memory _title, string memory _titleAbbreviation, address _holder, address _titleOperator) public initializer {
+    function initialize(string memory _title, string memory _titleAbbreviation) public initializer {
         ERC721Upgradeable.__ERC721_init(_title, _titleAbbreviation);
 
-        _setupRole(DEFAULT_ADMIN_ROLE, _titleOperator);
-        _setupRole(TITLE_OPERATOR, _titleOperator);
+        _setRoleAdmin(TITLE_OPERATOR, TITLE_OPERATOR);
+        _setupRole(TITLE_OPERATOR, msg.sender);
 
-        _mint(_holder, 0);
+        _mint(msg.sender, 0);
     }
 
     function supportsInterface(bytes4 interfaceId) public view override(ERC721Upgradeable, AccessControlUpgradeable) returns (bool) {

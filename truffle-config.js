@@ -23,13 +23,14 @@ module.exports = {
   mocha: {
     // timeout: 100000
   },
+  plugins: ["truffle-contract-size"],
   compilers: {
     solc: {
       version: "^0.8.0",
       settings: {
         optimizer: {
           enabled: true,
-          runs: 3
+          runs: 10
         },
       }
     }

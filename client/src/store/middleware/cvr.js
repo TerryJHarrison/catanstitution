@@ -17,6 +17,7 @@ import {
   setRoles,
   setRulerOfCatanVotes,
 } from "../actions/cvr";
+import {CKG_TOKEN_ID, CVR_TOKEN_ID} from "../../constants";
 
 const cvr = store => next => async action => {
   const {web3} = store.getState();
@@ -28,9 +29,8 @@ const cvr = store => next => async action => {
       const rulerOfCatan = await (await contracts.rulerOfCatan.methods.holder.call()).call();
       const keeperOfTheCatanstitution = await (await contracts.keeperOfTheCatanstitution.methods.holder.call()).call();
 
-      const cvrBalance = await contracts.cvr.methods.balanceOf(accounts[0]).call();
-      const decimals = await contracts.cvr.methods.decimals().call();
-      store.dispatch(setBalance(cvrBalance / 10 ** decimals));
+      const cvrBalance = await contracts.cvr.methods.balanceOf(accounts[0], CVR_TOKEN_ID).call();
+      store.dispatch(setBalance(cvrBalance));
 
       store.dispatch(setRoles({
         RULER_OF_CATAN: accounts[0] === rulerOfCatan,
@@ -40,31 +40,30 @@ const cvr = store => next => async action => {
       }))
       break;
     case actions.GET_BALANCE: {
-      const amount = await contracts.cvr.methods.balanceOf(accounts[0]).call();
-      const decimals = await contracts.cvr.methods.decimals().call();
-      store.dispatch(setBalance(amount / 10 ** decimals));
+      const amount = await contracts.cvr.methods.balanceOf(accounts[0], CVR_TOKEN_ID).call();
+      store.dispatch(setBalance(amount));
       break;
     }
     case actions.GET_BALANCES: {
-      const numVoters = await contracts.cvr.methods.numVoters().call();
-      const decimals = await contracts.cvr.methods.decimals().call();
+      const numVoters = await contracts.voterPool.methods.numVoters().call();
       const balances = [];
       for (let i = 0; i < numVoters; i++) {
-        const voter = await contracts.cvr.methods.voterRegistrations(i).call();
-        const amount = await contracts.cvr.methods.balanceOf(voter).call();
+        const voter = await contracts.voterPool.methods.voterRegistrations(i).call();
+        const amount = await contracts.cvr.methods.balanceOf(voter, CVR_TOKEN_ID).call();
         balances.push({
           address: voter,
-          balance: amount / 10 ** decimals
+          balance: amount
         });
       }
-      store.dispatch(setBalances(balances))
+      const ckg = await contracts.cvr.methods.balanceOf(accounts[0], CKG_TOKEN_ID).call();
+      store.dispatch(setBalances(balances, ckg));
       break;
     }
     case actions.GET_CATANSTITUTION:
-      const numAmendments = await contracts.cvr.methods.numAcceptedAmendments().call();
+      const numAmendments = await contracts.constitution.methods.numAcceptedAmendments().call();
       const amendments = [];
       for (let i = 1; i <= numAmendments; i++) {
-        amendments.push(await contracts.cvr.methods.catanstitution(i).call());
+        amendments.push(await contracts.constitution.methods.amendments(i).call());
       }
       store.dispatch(setCatanstitution({
         amendments,
@@ -75,7 +74,7 @@ const cvr = store => next => async action => {
       const {cvr} = store.getState();
       const currentProposals = [];
       for (const voter of cvr.balances) {
-        const proposal = await contracts.cvr.methods.proposals(voter.address).call();
+        const proposal = await contracts.constitution.methods.proposals(voter.address).call();
         if (proposal.status === "2") {//TODO map enums from contract
           currentProposals.push(proposal);
         }
@@ -89,14 +88,14 @@ const cvr = store => next => async action => {
       for (const proposal of proposals) {
         votes[proposal.amendmentNum] = {};
         for(const voter of balances){
-          votes[proposal.amendmentNum][voter.address] = await contracts.cvr.methods.proposalVotes(voter.address, proposal.amendmentNum).call();
+          votes[proposal.amendmentNum][voter.address] = await contracts.constitution.methods.proposalVotes(voter.address, proposal.amendmentNum).call();
         }
       }
       store.dispatch(setCurrentProposalsVotes(votes));
       break;
     }
     case actions.MINT_TOKEN: {
-      await contracts.cvr.methods.mint(action.address, connection.utils.toWei(action.amount, 'ether')).send({
+      await contracts.cvr.methods.mint(action.address, CVR_TOKEN_ID, action.amount).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -113,7 +112,7 @@ const cvr = store => next => async action => {
       break;
     }
     case actions.BURN_TOKEN:
-      await contracts.cvr.methods.burn(connection.utils.toWei(action.amount,'ether')).send({
+      await contracts.cvr.methods.burn(accounts[0], CVR_TOKEN_ID, action.amount).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -123,7 +122,7 @@ const cvr = store => next => async action => {
       store.dispatch(getBalances());
       break;
     case actions.RESOLVE_AMENDMENT:
-      await contracts.cvr.methods.resolveAmendment(action.amendmentNum).send({
+      await contracts.constitution.methods.resolveAmendment(action.amendmentNum).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -133,7 +132,7 @@ const cvr = store => next => async action => {
       store.dispatch(getCurrentProposalsVotes());
       break;
     case actions.PROPOSE_AMENDMENT:
-      await contracts.cvr.methods.proposeAmendment(action.amendment).send({
+      await contracts.constitution.methods.proposeAmendment(action.amendment).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -142,7 +141,7 @@ const cvr = store => next => async action => {
       store.dispatch(getCurrentProposalsVotes());
       break;
     case actions.VOTE_ON_PROPOSED_AMENDMENT:
-      await contracts.cvr.methods.voteOnProposedAmendment(Boolean(action.vote), action.amendment).send({
+      await contracts.constitution.methods.voteOnProposedAmendment(Boolean(action.vote), action.amendment).send({
         from: accounts[0],
         gasLimit: 500000
       });

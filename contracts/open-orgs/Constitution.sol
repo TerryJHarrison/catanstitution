@@ -1,16 +1,29 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./open-orgs/ERC20VoterToken.sol";
-import "./open-orgs/FluidVoteTitleV1.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
+import "./TitleAccess.sol";
+import "./VoterAccess.sol";
+import "./VoterPool.sol";
+import "./FluidVoteTitle.sol";
 
-contract CatanstitutionVotingRights is ERC20VoterToken {
-
-    FluidVoteTitleV1 public rulerOfCatan;
-    FluidVoteTitleV1 public keeperOfTheCatanstitution;
+contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
 
     enum AmendmentStatus { PASSED, FAILED, PROPOSED }
     enum VoteStatus { NOT_VOTED, FOR, AGAINST }
+
+    VoterPool voterPool;
+    SingleHolderTitle resolver;
+
+    function initialize(string memory _name, string memory _symbol, VoterPool _voterPool) public initializer {
+        ERC721Upgradeable.__ERC721_init(_name, _symbol);
+        voterPool = _voterPool;
+    }
+
+    //TODO: access control
+    function setResolver(SingleHolderTitle _resolver) public {
+        resolver = _resolver;
+    }
 
     struct Amendment {
         uint256 amendmentNum; //proposal number
@@ -23,25 +36,11 @@ contract CatanstitutionVotingRights is ERC20VoterToken {
     //Catanstitution
     uint256 public numAcceptedAmendments;
     uint256 public numProposedAmendments;
-    mapping(uint256 => Amendment) public catanstitution; //passed and ratified amendments
+    mapping(uint256 => Amendment) public amendments; //passed and ratified amendments
     mapping(address => Amendment) public proposals; //one proposal per registered voter allowed
     mapping(address => mapping(uint256 => VoteStatus)) public proposalVotes; //recorded votes for all proposals
 
-    function initialize() public initializer {
-        ERC20VoterToken.initialize("CatanstitutionVotingRights", "CVR");
-        rulerOfCatan = new FluidVoteTitleV1("Ruler of Catan", msg.sender, this);
-        keeperOfTheCatanstitution = new FluidVoteTitleV1("Keeper of the Catanstitution", msg.sender, this);
-    }
-
-    function mint(address to, uint256 amount) public override virtual onlyTitleHolder(keeperOfTheCatanstitution) {
-        super.mint(to, amount);
-        //TODO: determine if we need to register or not
-        rulerOfCatan.registerNewVoter(to);
-        keeperOfTheCatanstitution.registerNewVoter(to);
-    }
-
-    function proposeAmendment(string memory amendment) public {
-        require(balanceOf(msg.sender) > 0, "Must own CVR to propose amendments");
+    function proposeAmendment(string memory amendment) public onlyVoters(voterPool) {
         require(proposals[msg.sender].status != AmendmentStatus.PROPOSED, "You already have a proposal active, only one per registered voter");
 
         numProposedAmendments++;
@@ -50,8 +49,7 @@ contract CatanstitutionVotingRights is ERC20VoterToken {
         proposalVotes[msg.sender][numProposedAmendments] = VoteStatus.FOR;
     }
 
-    function voteOnProposedAmendment(bool vote, address activeProposal) public {
-        require(balanceOf(msg.sender) > 0, "Must own CVR to vote on proposals");
+    function voteOnProposedAmendment(bool vote, address activeProposal) public onlyVoters(voterPool) {
         require(proposalVotes[msg.sender][proposals[activeProposal].amendmentNum] == VoteStatus.NOT_VOTED, "You have already voted on this proposal, you may not change your vote");
 
         //Set vote
@@ -60,25 +58,26 @@ contract CatanstitutionVotingRights is ERC20VoterToken {
 
         //Update number of cast votes
         proposals[activeProposal].numVotes++;
-        if(proposals[activeProposal].numVotes == numVoters){ //all votes are cast, resolve proposal
+        if(proposals[activeProposal].numVotes == voterPool.numVoters()){ //all votes are cast, resolve proposal
             _resolveAmendmentVote(proposals[activeProposal].amendmentNum);
         }
     }
 
     function _resolveAmendmentVote(uint256 amendmentNum) internal {
-        //Count votes - weighted by CVR owned
+        uint256 numVoters = voterPool.numVoters();
+        //Count votes - each voter gets a single vote
         uint256 votesFor = 0;
         for (uint256 i = 0; i < numVoters; i++) {
-            address voter = voterRegistrations[i];
+            address voter = voterPool.voterRegistrations(i);
             if(proposalVotes[voter][amendmentNum] == VoteStatus.FOR){
-                votesFor += balanceOf(voter);
+                votesFor += 1;
             }
         }
 
         //Find the amendment
         Amendment memory a;
         for (uint256 i = 0; i < numVoters; i++) {
-            address voter = voterRegistrations[i];
+            address voter = voterPool.voterRegistrations(i);
             if(proposals[voter].amendmentNum == amendmentNum){
                 a = proposals[voter];
                 break;
@@ -88,14 +87,14 @@ contract CatanstitutionVotingRights is ERC20VoterToken {
         //Requires all but one voter to pass
         if(votesFor >= numVoters - 1){
             //Pass amendment
-            catanstitution[++numAcceptedAmendments] = a;
+            amendments[++numAcceptedAmendments] = a;
             proposals[a.author].status = AmendmentStatus.PASSED;
         } else {
             proposals[a.author].status = AmendmentStatus.FAILED;
         }
     }
 
-    function resolveAmendment(uint256 amendmentNum) public onlyTitleHolder(rulerOfCatan) {
+    function resolveAmendment(uint256 amendmentNum) public onlyTitleHolder(resolver) {
         //TODO: check if enough votes have been cast
         _resolveAmendmentVote(amendmentNum);
     }

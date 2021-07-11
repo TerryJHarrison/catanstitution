@@ -10,6 +10,7 @@ const initialState = {
   },
   cvr: {
     balances: [],
+    ckg: 0,
     catanstitution: {
       amendments: [],
       numAmendments: 0

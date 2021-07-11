@@ -91,9 +91,10 @@ export const getBalances = () => ({
   type: actions.GET_BALANCES
 });
 
-export const setBalances = balances => ({
+export const setBalances = (balances, ckg) => ({
   type: actions.SET_BALANCES,
-  balances: balances
+  balances: balances,
+  ckg: ckg
 });
 
 export const getKeeperOfTheCatanstitutionVotes = () => ({

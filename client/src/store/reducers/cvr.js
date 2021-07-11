@@ -16,7 +16,8 @@ function cvr(state = {}, action) {
       });
     case actions.SET_BALANCES:
       return Object.assign({}, state, {
-        balances: action.balances
+        balances: action.balances,
+        ckg: action.ckg
       });
     case actions.SET_CURRENT_PROPOSALS:
       return Object.assign({}, state, {

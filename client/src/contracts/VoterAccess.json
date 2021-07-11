@@ -1,7 +1,7 @@
 {
   "contractName": "VoterAccess",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterAccess.sol\":\"VoterAccess\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":3},\"remappings\":[]},\"sources\":{\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterAccess.sol\":{\"keccak256\":\"0xd727fb3595eb69d825860aae6018e5f306e3b5beb106f91ed71455037c56829d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1f7d32435c53dda278781fe8ff34c914c8722ac716e919a515bea9388fb82315\",\"dweb:/ipfs/Qmes9UgDA5foH3f6wEM7xXcrAXqohso7PVy2wf6NhdoSis\"]},\"/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterPool.sol\":{\"keccak256\":\"0xe46499f7904a65fac81d97eecee2ce5567fe0ed3a68ce07e4a8bc74638cd8c87\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ae183fa6db592a65ad8fefb6219dc4cd0f4a9bcdb9d5fc5987593448b7c5d99a\",\"dweb:/ipfs/QmW4QiNTUgWeTKN5sZ1dYUWdrLvmQkwTqWnuKiUx51j5sT\"]},\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x1cae4f85f114ff17b90414f5da67365b1d00337abb5bce9bf944eb78a2c0673c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d5ff16b336ce8f906478d5f2eecc6435e00833bdc0b92f6b209cf9e92cb5b2b7\",\"dweb:/ipfs/QmRD1rAZEqQ73C33cdA3QoUyBDMEWnNKNMc6PNkAZWHeQQ\"]},\"@openzeppelin/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x2d9f9af8b84d252e0e7ee716e4cb3ad1b58f3ec6619e4f54f40d4b5e28f75eb7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://43d6abdcb4cd5be9933f526b53f21008e9a7ab75ce134478625cc8ccd3c1a638\",\"dweb:/ipfs/QmZrzWUYmNANRCvHaMGsJQXYnWCe6HvMmvrqaPn1GEcpJ1\"]},\"@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0xc1c941ad1e580b4623007305921efe2f26fc7320a4edc226234dd707c658a428\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://473e11d739868e0d9f48254ccf84ba63290d6a2321d59a37b74c244a27f9cad7\",\"dweb:/ipfs/QmUGzDmecP936jzgM7SYyGwR1YgBGsveoHHJTbDfB8jbGF\"]},\"@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x96877bb2eb8ca360e949ee1bd77b47a14e92e42f79897c350f088f87a3c231d4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://48593d699a4ef6b5bd2efb20d37320e69303fd27d4b59a2b6b8a8e563e608456\",\"dweb:/ipfs/QmdAPS8uLrzPJEeFZyJVkwTtaL3KB9jo9wJm1UcoJP55wT\"]},\"@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol\":{\"keccak256\":\"0xb8d11e77eb1ed34a33720edb551d7d6a6b0eee2bfaa40a7024020e1fdf879b16\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c583283c838cc624a96a69eaa823fa92ac5294ec88d417e266c09ea091e0ae62\",\"dweb:/ipfs/QmNdzitXaFADaxooWpB4WsckkDyr4j6GQRxBjyKXsvEeXv\"]},\"@openzeppelin/contracts/utils/Address.sol\":{\"keccak256\":\"0x069b2631bb5b5193a58ccf7a06266c7361bd2c20095667af4402817605627f45\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6a4c96fafff76deda5697c3c5c98cade6e6e1b178254544c106bf360c079ce4e\",\"dweb:/ipfs/QmXmxubE3jnatFgZuN8ay1VV6hZ8WRmhvUjNpeVjki15HX\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395\",\"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN\"]},\"@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x456e9b3a2bfe189b5249857f624f4139e59331db518483b456c4e587a20552e0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1123c9545decc48a011370ebab4bf53dda98524fa21f9498e68851ba8f0ffc0f\",\"dweb:/ipfs/QmUpgMg8EFDnv87ePKUjXxXpJT3qwHRj9VDNSnRxu7T9sy\"]},\"@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0x5718c5df9bd67ac68a796961df938821bb5dc0cd4c6118d77e9145afb187409b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d10e1d9b26042424789246603906ad06143bf9a928f4e99de8b5e3bdc662f549\",\"dweb:/ipfs/Qmejonoaj5MLekPus229rJQHcC6E9dz2xorjHJR84fMfmn\"]},\"@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6\",\"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/open-orgs/VoterAccess.sol\":\"VoterAccess\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":10},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\":{\"keccak256\":\"0xc68cad93ce702131a09334e8705d4af062278defa99627a2c94685fb96ff8cc4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6839a7f9fdb061559b6192c64fc919c83cad99bf0ff4663f249f8409d9f88abf\",\"dweb:/ipfs/QmS6DzcqHkD8TipTTZ94FthQjBhX81sfYtAQQC9Qzifxxm\"]},\"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol\":{\"keccak256\":\"0x67d2f282a9678e58e878a0b774041ba7a01e2740a262aea97a3f681339914713\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://297df5725003e586651278a5d021b176457c5bb05a954c8490f21db2754e7352\",\"dweb:/ipfs/QmSe9AHjVnDn39NqT9hkjuCCGUwtc989WuZ5rWTe3GHrUD\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol\":{\"keccak256\":\"0x2ab92ebd3f4d4d85f30b39bd678ec3489e00aadd0a432c7a0ffa98adc2799004\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be8cf7c576f06ed9bd8b0be5a430abb32d3469b83481adbf913ab0bdaddfa277\",\"dweb:/ipfs/QmUG2QE27xtJnMz4uE3Vs6TRUzHvttHEU1vxTBzANUkWSV\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol\":{\"keccak256\":\"0x33620beff0655c5e728a72fff76fb6ce2dc32fc6b61eb8e435b12ed1adf31525\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6b88aa0f47c7cea8e39cbf6025935242c0466a8b68d2d3bf5efc6d5d31185dc2\",\"dweb:/ipfs/QmPfTy74xdPaHJx6RuEz4LorCsSeMndeffZqvEspACjjQj\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol\":{\"keccak256\":\"0x9ef7f2874f4a491f253a81eb4c5b9a7b6467a287aa0c32ac3dd684260a3cd7ad\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://665e87b1b3174681684da2e4074d48c47f0ae029be3b6d8c6dd958c8b82a3910\",\"dweb:/ipfs/QmNdJ4gAeM1STX4WH69va4WJh41enhjyr6XPg6iaMeE7Gw\"]},\"@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol\":{\"keccak256\":\"0x64581a092c059ab0cb74f473545e379b8a88f36a6a57f805515ef8c6ae061847\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7ee9823850f7757295f1bfde9691b6268c1c82d1cb3bb15bcbc3dae8f282071c\",\"dweb:/ipfs/QmbFusD9jZu7wsNZiVygaGeFxr1ZEB16HjAm1gQZyt234x\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0x5642ae1d6b33c5c0b71a8412c6c64cbcf2468b84a002bee3e33cdb5644d25cdb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://07ba474854eacf022fca2ab63af2b09653f476a9ef2d144ea3d022a0c0b92726\",\"dweb:/ipfs/QmVNfrArMejFSrPMktAtDte64FJ2fGPQHqgSXDz2SH6dse\"]},\"@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol\":{\"keccak256\":\"0x8e9eb503de1189f50c5f16fef327da310b11898d6b9ab3ca937df07c35233b9e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9631a7abcad07067f268b6295668a287e205ea9a8dc0fca02c2bf4db6c39431d\",\"dweb:/ipfs/QmUYFfB2AngTZLEsah4u8Z44riaB6yWkUXeasi1oG7ipfS\"]},\"@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol\":{\"keccak256\":\"0x6964377da5c19ade6b3e96bae0c0e82494d518af70cf12d2cdb3276f78fb3d85\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6fdcd89cc451559fcf17eb5b0a657a4d6217809603ece8439f933f836521f31f\",\"dweb:/ipfs/QmU75qTF1VG5KUaxZv2TrFYDPLmkraeTdmAG4P4j1ehoa6\"]},\"@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol\":{\"keccak256\":\"0x17c9c5d2d6b56527215ee7b3da6dde66b6f23f1b3d5c66cc436e753ef349a97a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dd7c775bc6000f44c048796b5e013dbb3ec7592986bc289868b19ff9439ee31d\",\"dweb:/ipfs/QmSuBfTT9z9sEpmEcGihEc5DJGsXery8QyyuNfvub875ej\"]},\"@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol\":{\"keccak256\":\"0x1c4860acd323e34a67b3e97faab9aaa55fe8e92b1dcf08b5f47f3468d58ce75c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3c2746f8ebb4bfb6b8e8a768296c7f85f11b36f4873daabb91933c3602f00590\",\"dweb:/ipfs/QmdumDez8WEdk9FDuP7Jp5pDSJiQeFtFSJw3B5CEHJL4KU\"]},\"project:/contracts/open-orgs/VoterAccess.sol\":{\"keccak256\":\"0xd727fb3595eb69d825860aae6018e5f306e3b5beb106f91ed71455037c56829d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1f7d32435c53dda278781fe8ff34c914c8722ac716e919a515bea9388fb82315\",\"dweb:/ipfs/Qmes9UgDA5foH3f6wEM7xXcrAXqohso7PVy2wf6NhdoSis\"]},\"project:/contracts/open-orgs/VoterPool.sol\":{\"keccak256\":\"0x66efe3b9eb6e2ecfb0902ff5e54fd8224185471a545d49c8476c6c9c4cc6d9b3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f8d734d97fe773941e6fce4b3d14123bdf52726f068127610c0ff3654a1bea11\",\"dweb:/ipfs/QmfDZm9ro1qZWvSTHfsrufY3fsVe74MNmLBhk4naB2py9Z\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -10,53 +10,56 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\nimport \"./VoterPool.sol\";\n\ninterface VoterAccess {\n    modifier onlyVoters(VoterPool voters) {\n        require(voters.isVoter(msg.sender), \"Not a registered voter\");\n        _;\n    }\n}\n",
-  "sourcePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterAccess.sol",
+  "sourcePath": "/Users/tjharrison/he/catanstitution/contracts/open-orgs/VoterAccess.sol",
   "ast": {
-    "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterAccess.sol",
+    "absolutePath": "project:/contracts/open-orgs/VoterAccess.sol",
     "exportedSymbols": {
-      "Address": [
-        7536
+      "AddressUpgradeable": [
+        3160
       ],
-      "Context": [
-        7559
+      "ContextUpgradeable": [
+        3205
       ],
-      "ERC165": [
-        7786
+      "ERC165Upgradeable": [
+        3454
       ],
-      "ERC721": [
-        7079
+      "ERC721Upgradeable": [
+        2755
       ],
-      "IERC165": [
-        7798
+      "IERC165Upgradeable": [
+        3466
       ],
-      "IERC721": [
-        7195
+      "IERC721MetadataUpgradeable": [
+        2916
       ],
-      "IERC721Metadata": [
-        7240
+      "IERC721ReceiverUpgradeable": [
+        2773
       ],
-      "IERC721Receiver": [
-        7213
+      "IERC721Upgradeable": [
+        2889
       ],
-      "Ownable": [
-        6261
+      "Initializable": [
+        572
       ],
-      "Strings": [
-        7762
+      "OwnableUpgradeable": [
+        526
+      ],
+      "StringsUpgradeable": [
+        3408
       ],
       "VoterAccess": [
-        1664
+        4676
       ],
       "VoterPool": [
-        1793
+        4808
       ]
     },
-    "id": 1665,
+    "id": 4677,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1646,
+        "id": 4658,
         "literals": [
           "solidity",
           "^",
@@ -64,17 +67,17 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "31:23:7"
+        "src": "31:23:23"
       },
       {
-        "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterPool.sol",
+        "absolutePath": "project:/contracts/open-orgs/VoterPool.sol",
         "file": "./VoterPool.sol",
-        "id": 1647,
+        "id": 4659,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1665,
-        "sourceUnit": 1794,
-        "src": "56:25:7",
+        "scope": 4677,
+        "sourceUnit": 4809,
+        "src": "56:25:23",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -84,19 +87,19 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": true,
-        "id": 1664,
+        "id": 4676,
         "linearizedBaseContracts": [
-          1664
+          4676
         ],
         "name": "VoterAccess",
-        "nameLocation": "93:11:7",
+        "nameLocation": "93:11:23",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 1662,
+              "id": 4674,
               "nodeType": "Block",
-              "src": "149:89:7",
+              "src": "149:89:23",
               "statements": [
                 {
                   "expression": {
@@ -105,25 +108,25 @@
                         "arguments": [
                           {
                             "expression": {
-                              "id": 1655,
+                              "id": 4667,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 4294967281,
-                              "src": "182:3:7",
+                              "src": "182:3:23",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1656,
+                            "id": 4668,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
-                            "src": "182:10:7",
+                            "src": "182:10:23",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -138,32 +141,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 1653,
+                            "id": 4665,
                             "name": "voters",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1650,
-                            "src": "167:6:7",
+                            "referencedDeclaration": 4662,
+                            "src": "167:6:23",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_VoterPool_$1793",
+                              "typeIdentifier": "t_contract$_VoterPool_$4808",
                               "typeString": "contract VoterPool"
                             }
                           },
-                          "id": 1654,
+                          "id": 4666,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isVoter",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1780,
-                          "src": "167:14:7",
+                          "referencedDeclaration": 4795,
+                          "src": "167:14:23",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) external returns (bool)"
                           }
                         },
-                        "id": 1657,
+                        "id": 4669,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -171,7 +174,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "167:26:7",
+                        "src": "167:26:23",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -180,14 +183,14 @@
                       },
                       {
                         "hexValue": "4e6f742061207265676973746572656420766f746572",
-                        "id": 1658,
+                        "id": 4670,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "195:24:7",
+                        "src": "195:24:23",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_5856af36c9982fc05af30dbd00aa231b175fd64ca45b42d898f413a7edfeab13",
                           "typeString": "literal_string \"Not a registered voter\""
@@ -206,7 +209,7 @@
                           "typeString": "literal_string \"Not a registered voter\""
                         }
                       ],
-                      "id": 1652,
+                      "id": 4664,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -214,13 +217,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "159:7:7",
+                      "src": "159:7:23",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1659,
+                    "id": 4671,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -228,127 +231,130 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "159:61:7",
+                    "src": "159:61:23",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1660,
+                  "id": 4672,
                   "nodeType": "ExpressionStatement",
-                  "src": "159:61:7"
+                  "src": "159:61:23"
                 },
                 {
-                  "id": 1661,
+                  "id": 4673,
                   "nodeType": "PlaceholderStatement",
-                  "src": "230:1:7"
+                  "src": "230:1:23"
                 }
               ]
             },
-            "id": 1663,
+            "id": 4675,
             "name": "onlyVoters",
-            "nameLocation": "120:10:7",
+            "nameLocation": "120:10:23",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1651,
+              "id": 4663,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1650,
+                  "id": 4662,
                   "mutability": "mutable",
                   "name": "voters",
-                  "nameLocation": "141:6:7",
+                  "nameLocation": "141:6:23",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1663,
-                  "src": "131:16:7",
+                  "scope": 4675,
+                  "src": "131:16:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_VoterPool_$1793",
+                    "typeIdentifier": "t_contract$_VoterPool_$4808",
                     "typeString": "contract VoterPool"
                   },
                   "typeName": {
-                    "id": 1649,
+                    "id": 4661,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1648,
+                      "id": 4660,
                       "name": "VoterPool",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1793,
-                      "src": "131:9:7"
+                      "referencedDeclaration": 4808,
+                      "src": "131:9:23"
                     },
-                    "referencedDeclaration": 1793,
-                    "src": "131:9:7",
+                    "referencedDeclaration": 4808,
+                    "src": "131:9:23",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_VoterPool_$1793",
+                      "typeIdentifier": "t_contract$_VoterPool_$4808",
                       "typeString": "contract VoterPool"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "130:18:7"
+              "src": "130:18:23"
             },
-            "src": "111:127:7",
+            "src": "111:127:23",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 1665,
-        "src": "83:157:7",
+        "scope": 4677,
+        "src": "83:157:23",
         "usedErrors": []
       }
     ],
-    "src": "31:210:7"
+    "src": "31:210:23"
   },
   "legacyAST": {
-    "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterAccess.sol",
+    "absolutePath": "project:/contracts/open-orgs/VoterAccess.sol",
     "exportedSymbols": {
-      "Address": [
-        7536
+      "AddressUpgradeable": [
+        3160
       ],
-      "Context": [
-        7559
+      "ContextUpgradeable": [
+        3205
       ],
-      "ERC165": [
-        7786
+      "ERC165Upgradeable": [
+        3454
       ],
-      "ERC721": [
-        7079
+      "ERC721Upgradeable": [
+        2755
       ],
-      "IERC165": [
-        7798
+      "IERC165Upgradeable": [
+        3466
       ],
-      "IERC721": [
-        7195
+      "IERC721MetadataUpgradeable": [
+        2916
       ],
-      "IERC721Metadata": [
-        7240
+      "IERC721ReceiverUpgradeable": [
+        2773
       ],
-      "IERC721Receiver": [
-        7213
+      "IERC721Upgradeable": [
+        2889
       ],
-      "Ownable": [
-        6261
+      "Initializable": [
+        572
       ],
-      "Strings": [
-        7762
+      "OwnableUpgradeable": [
+        526
+      ],
+      "StringsUpgradeable": [
+        3408
       ],
       "VoterAccess": [
-        1664
+        4676
       ],
       "VoterPool": [
-        1793
+        4808
       ]
     },
-    "id": 1665,
+    "id": 4677,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1646,
+        "id": 4658,
         "literals": [
           "solidity",
           "^",
@@ -356,17 +362,17 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "31:23:7"
+        "src": "31:23:23"
       },
       {
-        "absolutePath": "/Users/tjharrison/catanstitution/contracts/open-orgs-v2/VoterPool.sol",
+        "absolutePath": "project:/contracts/open-orgs/VoterPool.sol",
         "file": "./VoterPool.sol",
-        "id": 1647,
+        "id": 4659,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1665,
-        "sourceUnit": 1794,
-        "src": "56:25:7",
+        "scope": 4677,
+        "sourceUnit": 4809,
+        "src": "56:25:23",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -376,19 +382,19 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": true,
-        "id": 1664,
+        "id": 4676,
         "linearizedBaseContracts": [
-          1664
+          4676
         ],
         "name": "VoterAccess",
-        "nameLocation": "93:11:7",
+        "nameLocation": "93:11:23",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 1662,
+              "id": 4674,
               "nodeType": "Block",
-              "src": "149:89:7",
+              "src": "149:89:23",
               "statements": [
                 {
                   "expression": {
@@ -397,25 +403,25 @@
                         "arguments": [
                           {
                             "expression": {
-                              "id": 1655,
+                              "id": 4667,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 4294967281,
-                              "src": "182:3:7",
+                              "src": "182:3:23",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1656,
+                            "id": 4668,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
-                            "src": "182:10:7",
+                            "src": "182:10:23",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -430,32 +436,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 1653,
+                            "id": 4665,
                             "name": "voters",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1650,
-                            "src": "167:6:7",
+                            "referencedDeclaration": 4662,
+                            "src": "167:6:23",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_VoterPool_$1793",
+                              "typeIdentifier": "t_contract$_VoterPool_$4808",
                               "typeString": "contract VoterPool"
                             }
                           },
-                          "id": 1654,
+                          "id": 4666,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "isVoter",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 1780,
-                          "src": "167:14:7",
+                          "referencedDeclaration": 4795,
+                          "src": "167:14:23",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) external returns (bool)"
                           }
                         },
-                        "id": 1657,
+                        "id": 4669,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -463,7 +469,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "167:26:7",
+                        "src": "167:26:23",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -472,14 +478,14 @@
                       },
                       {
                         "hexValue": "4e6f742061207265676973746572656420766f746572",
-                        "id": 1658,
+                        "id": 4670,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "195:24:7",
+                        "src": "195:24:23",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_5856af36c9982fc05af30dbd00aa231b175fd64ca45b42d898f413a7edfeab13",
                           "typeString": "literal_string \"Not a registered voter\""
@@ -498,7 +504,7 @@
                           "typeString": "literal_string \"Not a registered voter\""
                         }
                       ],
-                      "id": 1652,
+                      "id": 4664,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -506,13 +512,13 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "159:7:7",
+                      "src": "159:7:23",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1659,
+                    "id": 4671,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -520,80 +526,80 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "159:61:7",
+                    "src": "159:61:23",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1660,
+                  "id": 4672,
                   "nodeType": "ExpressionStatement",
-                  "src": "159:61:7"
+                  "src": "159:61:23"
                 },
                 {
-                  "id": 1661,
+                  "id": 4673,
                   "nodeType": "PlaceholderStatement",
-                  "src": "230:1:7"
+                  "src": "230:1:23"
                 }
               ]
             },
-            "id": 1663,
+            "id": 4675,
             "name": "onlyVoters",
-            "nameLocation": "120:10:7",
+            "nameLocation": "120:10:23",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 1651,
+              "id": 4663,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1650,
+                  "id": 4662,
                   "mutability": "mutable",
                   "name": "voters",
-                  "nameLocation": "141:6:7",
+                  "nameLocation": "141:6:23",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1663,
-                  "src": "131:16:7",
+                  "scope": 4675,
+                  "src": "131:16:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_VoterPool_$1793",
+                    "typeIdentifier": "t_contract$_VoterPool_$4808",
                     "typeString": "contract VoterPool"
                   },
                   "typeName": {
-                    "id": 1649,
+                    "id": 4661,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 1648,
+                      "id": 4660,
                       "name": "VoterPool",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 1793,
-                      "src": "131:9:7"
+                      "referencedDeclaration": 4808,
+                      "src": "131:9:23"
                     },
-                    "referencedDeclaration": 1793,
-                    "src": "131:9:7",
+                    "referencedDeclaration": 4808,
+                    "src": "131:9:23",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_VoterPool_$1793",
+                      "typeIdentifier": "t_contract$_VoterPool_$4808",
                       "typeString": "contract VoterPool"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "130:18:7"
+              "src": "130:18:23"
             },
-            "src": "111:127:7",
+            "src": "111:127:23",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 1665,
-        "src": "83:157:7",
+        "scope": 4677,
+        "src": "83:157:23",
         "usedErrors": []
       }
     ],
-    "src": "31:210:7"
+    "src": "31:210:23"
   },
   "compiler": {
     "name": "solc",
@@ -601,7 +607,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-07-10T17:26:07.569Z",
+  "updatedAt": "2021-07-11T18:05:47.212Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
