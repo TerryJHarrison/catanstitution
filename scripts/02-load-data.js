@@ -6,8 +6,8 @@ const CatanKeeper = require('../client/src/contracts/CatanKeeper.json');
 const gameData = require("./gameData.json");
 const addresses = require("./addresses.json");
 
-const web3 = new Web3('https://rpc-mumbai.matic.today')
-const catanstitution = new web3.eth.Contract(Catanstitution.abi, Catanstitution.networks[80001].address);
+const web3 = new Web3('http://127.0.0.1:7545')
+const catanstitution = new web3.eth.Contract(Catanstitution.abi, Catanstitution.networks[1337].address);
 
 const loadWallet = async() => {
   const mnemonic = fs.readFileSync('../.secret', 'utf8');

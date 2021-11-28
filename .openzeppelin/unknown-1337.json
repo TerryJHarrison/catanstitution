@@ -1,325 +1,85 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x9c2C093c2D93B322691d30Ebb29DB9751bA7b342",
-    "txHash": "0xb42f247951d2f08397ef8de0736b7351096e848ad24bae434fe749ffaad25605"
+    "address": "0x45d81316C0C61282bC884E38Cb3c5bB32E0Bd735",
+    "txHash": "0x8f247ae6d3126fc5d05032ef27686bc99d5ffe971def0f9971db7a3a057f3256"
   },
   "proxies": [
     {
+      "address": "0xc824c17885C6f549F14aA978A77768DF233ffee8",
+      "txHash": "0x53e61c826a1ec00e8ca2fd1957a7ebbd17e0caca96fb29307dfd57205cd21841",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc94D96fFfd27599C525f48bb1CdAe5e337b67489",
+      "txHash": "0x94118960766c3d8a40667c293388598f5ff48078d5ad1f61dc57150f6928cef5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe37FDbF9f183bCE106aA44EeD16Caf1E47A65A0E",
+      "txHash": "0xce05ee16dfcd5ad6d9507b3fdb7fa00b7ac5affd66fd2433e2fe625ae8368ac4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xBFdaC61Aa200589A493fA70b9c44bB36bABAa9dc",
+      "txHash": "0x1d005dd8e547b26c5a0e3219a80e436def59bf875f8e7382a0b3524f65e39d66",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x06edaF0Df736455Dd6345FC737DC8389cA27049B",
+      "txHash": "0x9ed7045ee187c3c63c105434364d488dea5e283717d18bc71f17297a0b65a229",
+      "kind": "transparent"
+    },
+    {
       "address": "0x006ea45A236eAFAEB49a50B6E8aB6e446D4BB6e2",
-      "txHash": "0xfa94ad1ea9b724b2fb5349901b94eff4437d14485d6d5927f3192c35dac0b8b1",
+      "txHash": "0x73277610365021d1286afb88a1bfcf6cae67100a94b92df0b2a7cde44d2c4d83",
       "kind": "transparent"
     },
     {
       "address": "0xfA6E380f9fF8Ec36FeE5bC71f2AD9a42491E523c",
-      "txHash": "0x14fcd01e20a8afc966726c1d010f70e7a7fc1f7791f2d0118c01ac9995ad8d7e",
+      "txHash": "0x2c772fdf8aec043209c432a301b171081bc44c6da4f3227188e63ccb3f8905fc",
       "kind": "transparent"
     },
     {
-      "address": "0x0e4814d08c0158AA00Cf2DdC8748174F5f6Be4A3",
-      "txHash": "0x26d546a3e4470517f716002b10b668401d2a9b31e8e30f5d75928f1a5b41e60f",
+      "address": "0xE731a7c31e3d5350703f9F9cb8C8C1fD28b267cd",
+      "txHash": "0x5d3f50581ae6935d069b53d594f8e4f60ebd088264c954adef897aadace2e186",
       "kind": "transparent"
     },
     {
-      "address": "0x1F0cDb96f85cD66706AD2bEf67b02BEa5161ce3A",
-      "txHash": "0xf21391625bad13a129e75dbdf66080e3ae19e8f7ef516bb7cec93b303738dcaa",
+      "address": "0x51E1d2Af96E852E3e41F7320CacCF22FDf088BeA",
+      "txHash": "0x1477777d8120821d2bf70099acd0d1df259aa2d1565a318aee4ddf65df62b11c",
       "kind": "transparent"
     },
     {
-      "address": "0xD10Ae19A4596517C2227091d1D1358A6C8140397",
-      "txHash": "0xe35c7c2ad5ced2b5f3a4f25ed571ff7501809b025fccc56a88b072c1e2d509a7",
+      "address": "0x5872077a765006bd7a957a6EfA8e2e7a779B0b53",
+      "txHash": "0xb8be1b6dd7687b2bec6928e7450004b367409f90a004c555a44e360e46cca250",
       "kind": "transparent"
     },
     {
-      "address": "0xF30911f32166d20948CB4834A7277B97cDad1c80",
-      "txHash": "0xe6fff3a9adc8b989f9ca7e1fa5ff64cd168960ce2c4052b7bd1d8f36b2a6a22b",
+      "address": "0x5ea77863604b8c560fD7d1C998aE7cb68C222D24",
+      "txHash": "0x392e67cdcd9ce31ca7a3192b50f7c8036bbe6ce721193d90bb18db7eaf6a2c9f",
       "kind": "transparent"
     },
     {
-      "address": "0x064ed8b41B2f0b4e730574EB4D08B231121D1113",
-      "txHash": "0xfc96515e58f51b45f74054b1ec3b6899434c8299e453f53bd3d6ea6de9fb1351",
+      "address": "0x9a739D7D7749164dF4396A2b9fD9E69413350727",
+      "txHash": "0x2fb6293b8c0d962ec1e619d10eb901fafcc873c48209b037e8aaf1c89ddc843a",
       "kind": "transparent"
     },
     {
-      "address": "0x448E36caeD89b84Fc34D97B574FeCACdecCCdD07",
-      "txHash": "0xf222b87c0e822f6b0b46f5806f7578c791fc9e3ed7a0cbc346de95b9b38a2181",
+      "address": "0x780D767C67e309Dd9A9Ea246AAE236BB2caA1c48",
+      "txHash": "0x39bbed67e931206f12adae0dfb443c8e0972c3a9dbd1f3656e68500f84b9e8ec",
       "kind": "transparent"
     },
     {
-      "address": "0xD83DBef886b94276957050fbd640c2185521d70E",
-      "txHash": "0x046bb735f48c63055f4fa1b8e3497442e5495e8c473d6dde01c53a2366f4b34c",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x22360977A39d26E0f8D5261Bb363D8766838e2bE",
-      "txHash": "0xcb4ea9b15a3cf7244e093c0f45d7c16515534160b9c1ddea22e7cc69009a02e6",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xe2639EDCF3A2C547684613b58eD9f606ac05AEA5",
-      "txHash": "0x5ae5582f05d13eedeaadfefad47be9b034e8d2f68d207935b04a3fc4b5f6fa2e",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x0ED6402c2BDb44f9f156B0A0c888C707ACb8a257",
-      "txHash": "0xded82bf99ca0b77bbff55dc6373e737767e6effcd8a5a0dcf9450bd430da1cc7",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xEa63B03Be180e0e612450409Cf275aEa2aE71E51",
-      "txHash": "0xe5ef899b4759236cba6e1fa4635743ebb2aed6552e05b2e5c113ad0e63b9c1d3",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x36698A1aeb31a9CDDBcFfacc2479569734cD4257",
-      "txHash": "0xcdf511a96b3f11371d87989f91d6c0318f2213dad0b1701d93dad447e32692ae",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x65Dc686ab2a5F38e2143516ddBa1749555fb983f",
-      "txHash": "0xfc669c0145c4f10d7124f62143dd2bfd971ac1f056a96393e2cd5c0cd46b90f0",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x7FdA274BA87A0B8fF0D96D9C92218Ec471781780",
-      "txHash": "0x9946c1368cf2fbec4ff793e061436c527f00136ef595f3ab37c0f35dfca0df86",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x5b708b2984A20E388A887cDD48da3224b0157361",
-      "txHash": "0x64a85212668e41d522f3a18a833865c02f91af0917ce99c3bd7c428ddef7b0fc",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xd914e3565Fc35684f5008FAF29A333e3E6e76219",
-      "txHash": "0x4fe22a646c97f343775f7fbdf45ae7789bc970252cc044175941cd918071c7e9",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x43cA3eA0fC7CD8d43544006dB010Ad7C7aaB2B50",
-      "txHash": "0x3c1dfd63d52a7f37d5651a64e075d45eaaccbf6df25059886f40e9ff94d5ccdd",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xb5f2F41a1447CD27B1d2D04A9d86EA7240308248",
-      "txHash": "0x43803867eed9001c23c1f64735e74508b82551d05eb63f0328477a4fe5053754",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xDCCE3f938e75669db663D489349c01c9D0387c95",
-      "txHash": "0x8e71a692e2a016269c9aac03626042aac244f785f4971044f5547a53946264e2",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x8041f966D2B7BF7AD2900749C873Ea99AbE129bd",
-      "txHash": "0xa3b660b7bad9b4d6c2f66f85d4bf8a86f15179b53e5a590769f4d60f41f16739",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xC793A0E0b84b02f978bD7fa032174F9293EA4d1E",
-      "txHash": "0x9066f2344d9d7148a2b120ef2458219c9cd8d04256ae2ec4b92ba88a573910cc",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x41Eca83237c9BAcaEF4d3e5c9aD6c3cA24668724",
-      "txHash": "0x63213b91d548f75aa502e64d6f985132ab508e93d310b57d3c17f67227a72bf6",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x7b02aF33b39b58F7ab383991546780beDD14e323",
-      "txHash": "0x2d248737f4821480f07d22113416f0856641b1694c9242fcee0ccc8c8d3b7752",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x365bE345FDDDc541604507e3601C2C81b907D08f",
-      "txHash": "0x935d0c508024ba61b3b7b0b9fc4b9817b6719f2b7160aa0831fd7b7ca5f8a956",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x39f0BDeC3FE9b6543Dff84b18920898602793495",
-      "txHash": "0x6243548c6f81738e0ebece72375327ed97b07da50f3c1a147aed6d3a0f77eb0b",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xe153BBCBDC40539Ab74ac91d9175b2CB80B80C96",
-      "txHash": "0x5b952be85d430e53e9c46b2d4e06a5676d2a7d24fffb1c549b1c016635588830",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x46559d99Fdf70a37F83C2c8Db5a66d2062b1409c",
-      "txHash": "0x3830f1892a5b19f4e474a424e5041447e03b39793aef97889a7ebaa9cb929187",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xb6eC87F1F993945C44C0e278ccB6A1FC141b0d9f",
-      "txHash": "0x09193348cd119894f2ce4b8f8bf79687537264ea099c242a7968a3c333224e71",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x27B1B5f334aBc9a1363f38F1d3101165D259b0b7",
-      "txHash": "0x7ba5795d2c3a983765fa31e17403989c6eb6b74f932e7494a42feae29bcc686b",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x0856EFaDCdd85b34377a9641e220FCd01412C3F4",
-      "txHash": "0x01aa14d112c63fa2be06af643d6f81227d312127dddc9ff1c0e431a1c25bc072",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x13d37C24539DbE4C46A9af9E4E692b77D4a19477",
-      "txHash": "0xf02bce75ede846b845c451fabe0beefba5e9892e48c556b7108aab176c9394b2",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x9E8Eca6bFfEA6DD9dcf15Fe4D9111E5898a55BB1",
-      "txHash": "0x75d5dbfab66fc861eebf725ba9430eb66cf36990de63495575be7b67dcaa7305",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xe49a65349885c0B35dDf539189422afa1E085150",
-      "txHash": "0x12ca206d567a050213101486700f78fdb0b3c4ad274fb2ecd8679b655ecc55a2",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x4E23c9F5966C101B4772Dc30Df0b18fCee049734",
-      "txHash": "0xcb9f47381ac0abf02530aeb39918e409b1437fba171bdcad1832ff2350d741e1",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xc554ab71e1CC7B6DeEbF748212A6461F1A1c86cf",
-      "txHash": "0xa7736e668d1c0c0ac41380c5b908df0e28f90fb5b08a62b7ef6187da6eac9950",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xa051De0c8F746B360CB56c71BF79bcf415d457fB",
-      "txHash": "0xfceadf5843be71c873ed43c64ea8ff6e227276f5d7b3b91747fd99edf574e241",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x02b4C7a3a0A3517b84BF3AAd2e13fADdf64d0AD3",
-      "txHash": "0xe80a3c44054ee9e24a6b595de4c83fa46eeaedb255865052d0e6cba182991703",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x822ecB537C1AefBEbDaE9fa4AeA2c67475ccB0c9",
-      "txHash": "0x8c60a77a166343cfd2dab537ea2d23a952e3ad215a08d603ab317228ad845772",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xA6adf11d4CC831E805CD0c0a805344D138a457e0",
-      "txHash": "0x3566a6b27656b90784a426e3a7438eabba67688a43bd13ac6ed8e91deea13fe4",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x86F0F0374b900cC34D550929996D8511c381284f",
-      "txHash": "0x0749d508f7f6034738342de28d4b45c9b0bd0676bc60574f2b201332f3a4badc",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xB84AaDA825A2f526d3C9b069ae9F3A57B81C5E7d",
-      "txHash": "0x733ced8b2d7396bd517e84fa15ac2dda6cae24be7fa95f0c87649a7848a47e8d",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x93c77b76D4BedB43FfAbb57ab4c111c05d95ec34",
-      "txHash": "0x2779ade6f1e5c771ce57bea994cff4f6fa78473b8fea223b3a0f621609701118",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x3780Fb0f02FFc845da381DCD80B6147dEEfF54A6",
-      "txHash": "0xc53bd47bca217a19d0fbd69f82109f151457a115a48bcda84032c3b7fc2c9111",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x4D2aB85165Cf4a11ddcD8B88d38EDCa4Ee5a4181",
-      "txHash": "0x8c5e45a9f1c3ec5a5685976a5bb5969d7b7a010a602f6fa56b38f89a4044c561",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x5372Ab625F282f909377979C5425adF1E62F6a2C",
-      "txHash": "0xf28b23e1b6cb40ff187e4b7e0e4bcd45ae570b2a0c97231a4512c86e4c86be79",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xb4340b53cf5d530776B0b8C05DAb057D74FfDbD5",
-      "txHash": "0xc5513821e65496e49327fb60538c91e9832511e3707b641798c717bea779f0c2",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x3A57eBF747EBD5c40e02e6CaE033C7741A83e7EC",
-      "txHash": "0x68a085768a75adeb687fb7e8d7cb5a7e588c13bd3da8ca39cf2302d868103d49",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x4Ae5d57F2685189F2C4b05CA14d773d2eEdd093E",
-      "txHash": "0xe8f7cc9a447dff074b0e5e623434847d80597ccf302d2a018df679e01e98eace",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x2DE8729EaEdC32e36243B7764750c0F49c89A17b",
-      "txHash": "0xf79904f802a2d46c1b87f8a584451eed9c6f34e3a308fa9aead9e8c41a6ab93b",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xBEb4f327d4855feB7e22f439d4C5101479ceEa77",
-      "txHash": "0x26654d8bc13a3db1331e5d8e17fcaf3474f84d62ab30a5f47fa55823337a35aa",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xD1228DC01989a5950575efc43da47DEFd344b0c6",
-      "txHash": "0x15424f5dfc60ecf53d6481b018e24f18406ff9b39e1341438d9012832f5e9d7f",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xF2F8aC0D3F62DF83eD23a7b9B268B66147f8b6FB",
-      "txHash": "0x45bc7fde662bbcce39e43c25c1eaf797424ed5e31d9eaf6a65fc6f5b848cba88",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x3105d2C25DC852BdB08b768f25d300c74fE3006B",
-      "txHash": "0x9a669bba80d75e2078060696d3cbc8b4b770b2565a475240d92513fe67d0d0a5",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x6871AA14b46DeB92239B045aAA2D82862f770E55",
-      "txHash": "0x864ece11923cf4e6bee52899665733a9b4173d4bb5531f3bb53e6ecce16fb757",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x31b7bd0E549C4DCb452409862897C8b76A53a2D0",
-      "txHash": "0xedf4be6f52d683f38da08f4cf16c22283093535d4ea19763814fdace1ddae87b",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xc2aA209507Cf866904c85324764ceaBFb5DF1CD4",
-      "txHash": "0xe7db1b63338b979e4e780dd838edde091cd3127b896f6511b5a39a1de6c0a4b5",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xd89D034fa2065e0d3EFd41068252F9eae925055E",
-      "txHash": "0x55077e37f902acb617ee716c3a3198788acfd747940d29ee9b850010b7af55ba",
-      "kind": "transparent"
-    },
-    {
-      "address": "0x81088Fb6D922306028253b07F11C8b5219Dddb9B",
-      "txHash": "0xa74a0e08e7c20fca50d35987d8fa622a5602734c9866c898efdddc34aeb514ad",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xa0523F50b8D0569aE609D6CbB93A088a29512C78",
-      "txHash": "0xc18f236bc9edd1766c8e54d52c624e484fba3ad42ef65eac7a8c2810a94da72b",
-      "kind": "transparent"
-    },
-    {
-      "address": "0xCC9A63Fe91344b80e0eE21C1b9582e2B5D92e2A3",
-      "txHash": "0x683295049ea0b8f4ceda50d13a2714bb35a2cb706b3ee450ba73d1de5c5418a2",
+      "address": "0x007524a2aD65449266368F017D7f79CFf215b91E",
+      "txHash": "0x7b1fd7016069e1c25f94a0bde581502b0ab0129ae34d0a3fb99ae24aa81eaef4",
       "kind": "transparent"
     }
   ],
   "impls": {
-    "d0a3cd02b173282c6ffdd84200acf2f895f987dfa81860543d71bf9d7bf325aa": {
-      "address": "0x06edaF0Df736455Dd6345FC737DC8389cA27049B",
-      "txHash": "0x8e600f7711e746e6e34528b9d5597a96da4d98b636b2518f1d08037169e958ee",
+    "4c2bd281cae8e947543cf08b6374e5408a8f89f826ee4a865ccaeed03ed2ade0": {
+      "address": "0x3ad8E0076313a3e8022AAf90218c60183039BA29",
+      "txHash": "0x4e3b99fd0621bfb807a614b91f64f353f525c243b52e0e05e194f9a546ab9124",
       "layout": {
         "storage": [
           {
@@ -389,48 +149,83 @@
             "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
           },
           {
-            "contract": "OwnableUpgradeable",
-            "label": "_owner",
-            "type": "t_address",
-            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
           },
           {
-            "contract": "OwnableUpgradeable",
+            "contract": "AccessControlUpgradeable",
             "label": "__gap",
             "type": "t_array(t_uint256)49_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
           },
           {
             "contract": "VoterPool",
-            "label": "numVoters",
-            "type": "t_uint256",
-            "src": "../project:/contracts/open-orgs/VoterPool.sol:9"
-          },
-          {
-            "contract": "VoterPool",
-            "label": "voterRegistrations",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../project:/contracts/open-orgs/VoterPool.sol:10"
-          },
-          {
-            "contract": "VoterPool",
-            "label": "voterRegistrationIndexes",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../project:/contracts/open-orgs/VoterPool.sol:11"
+            "label": "voters",
+            "type": "t_struct(AddressSet)3621_storage",
+            "src": "../project:/contracts/open-orgs/VoterPool.sol:14"
           }
         ],
         "types": {
+          "t_struct(AddressSet)3621_storage": {
+            "label": "struct EnumerableSetUpgradeable.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)3346_storage"
+              }
+            ]
+          },
+          "t_struct(Set)3346_storage": {
+            "label": "struct EnumerableSetUpgradeable.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage"
+              },
+              {
+                "label": "_indexes",
+                "type": "t_mapping(t_bytes32,t_uint256)"
+              }
+            ]
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)"
+          },
           "t_uint256": {
             "label": "uint256"
           },
-          "t_mapping(t_uint256,t_address)": {
-            "label": "mapping(uint256 => address)"
+          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_struct(RoleData)81_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
           },
           "t_address": {
             "label": "address"
           },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
+          "t_bool": {
+            "label": "bool"
           },
           "t_array(t_uint256)49_storage": {
             "label": "uint256[49]"
@@ -438,14 +233,14 @@
           "t_string_storage": {
             "label": "string"
           },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
           "t_mapping(t_address,t_mapping(t_address,t_bool))": {
             "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_bool": {
-            "label": "bool"
           },
           "t_array(t_uint256)44_storage": {
             "label": "uint256[44]"
@@ -456,9 +251,9 @@
         }
       }
     },
-    "87ca13705bc233f6f1fe9bc80f28058145c544333456d2f953de6cd2735d8da6": {
-      "address": "0x060A32e0DF20d6DF1fEB308C1F1dc986eBBa2D6f",
-      "txHash": "0xfda95b37c2777c373b03c18a6014c24d0d1beea6ef4c5144ecebcefe38a3b71e",
+    "890983bcd7562d88e5a06fa0e9f819949b5140a22d36739711f7bb4cbb9f67b2": {
+      "address": "0x6f18281eFcb6d8C6ca79f45cA4067f4f92288f22",
+      "txHash": "0xd6344051044cd8c84a11cf02e220e4a69c0c94be940ef198737061877938842a",
       "layout": {
         "storage": [
           {
@@ -528,62 +323,74 @@
             "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
           },
           {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
             "contract": "Constitution",
             "label": "voterPool",
-            "type": "t_contract(VoterPool)4832",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:15"
+            "type": "t_contract(VoterPool)8567",
+            "src": "../project:/contracts/open-orgs/Constitution.sol:18"
           },
           {
             "contract": "Constitution",
             "label": "resolver",
-            "type": "t_contract(SingleHolderTitle)4659",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:16"
+            "type": "t_contract(SingleHolderTitle)8360",
+            "src": "../project:/contracts/open-orgs/Constitution.sol:19"
           },
           {
             "contract": "Constitution",
             "label": "numAcceptedAmendments",
             "type": "t_uint256",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:37"
+            "src": "../project:/contracts/open-orgs/Constitution.sol:42"
           },
           {
             "contract": "Constitution",
             "label": "numProposedAmendments",
             "type": "t_uint256",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:38"
+            "src": "../project:/contracts/open-orgs/Constitution.sol:43"
           },
           {
             "contract": "Constitution",
             "label": "amendments",
-            "type": "t_mapping(t_uint256,t_struct(Amendment)4074_storage)",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:39"
+            "type": "t_mapping(t_uint256,t_struct(Amendment)7729_storage)",
+            "src": "../project:/contracts/open-orgs/Constitution.sol:44"
           },
           {
             "contract": "Constitution",
             "label": "proposals",
-            "type": "t_mapping(t_address,t_struct(Amendment)4074_storage)",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:40"
+            "type": "t_mapping(t_address,t_struct(Amendment)7729_storage)",
+            "src": "../project:/contracts/open-orgs/Constitution.sol:45"
           },
           {
             "contract": "Constitution",
             "label": "proposalVotes",
-            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)4021))",
-            "src": "../project:/contracts/open-orgs/Constitution.sol:41"
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)7662))",
+            "src": "../project:/contracts/open-orgs/Constitution.sol:46"
           }
         ],
         "types": {
-          "t_contract(VoterPool)4832": {
+          "t_contract(VoterPool)8567": {
             "label": "contract VoterPool"
           },
-          "t_contract(SingleHolderTitle)4659": {
+          "t_contract(SingleHolderTitle)8360": {
             "label": "contract SingleHolderTitle"
           },
           "t_uint256": {
             "label": "uint256"
           },
-          "t_mapping(t_uint256,t_struct(Amendment)4074_storage)": {
+          "t_mapping(t_uint256,t_struct(Amendment)7729_storage)": {
             "label": "mapping(uint256 => struct Constitution.Amendment)"
           },
-          "t_struct(Amendment)4074_storage": {
+          "t_struct(Amendment)7729_storage": {
             "label": "struct Constitution.Amendment",
             "members": [
               {
@@ -600,7 +407,7 @@
               },
               {
                 "label": "status",
-                "type": "t_enum(AmendmentStatus)4017"
+                "type": "t_enum(AmendmentStatus)7658"
               },
               {
                 "label": "numVotes",
@@ -614,7 +421,7 @@
           "t_address": {
             "label": "address"
           },
-          "t_enum(AmendmentStatus)4017": {
+          "t_enum(AmendmentStatus)7658": {
             "label": "enum Constitution.AmendmentStatus",
             "members": [
               "PASSED",
@@ -622,22 +429,50 @@
               "PROPOSED"
             ]
           },
-          "t_mapping(t_address,t_struct(Amendment)4074_storage)": {
+          "t_mapping(t_address,t_struct(Amendment)7729_storage)": {
             "label": "mapping(address => struct Constitution.Amendment)"
           },
-          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)4021))": {
+          "t_mapping(t_address,t_mapping(t_uint256,t_enum(VoteStatus)7662))": {
             "label": "mapping(address => mapping(uint256 => enum Constitution.VoteStatus))"
           },
-          "t_mapping(t_uint256,t_enum(VoteStatus)4021)": {
+          "t_mapping(t_uint256,t_enum(VoteStatus)7662)": {
             "label": "mapping(uint256 => enum Constitution.VoteStatus)"
           },
-          "t_enum(VoteStatus)4021": {
+          "t_enum(VoteStatus)7662": {
             "label": "enum Constitution.VoteStatus",
             "members": [
               "NOT_VOTED",
               "FOR",
               "AGAINST"
             ]
+          },
+          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)81_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
           },
           "t_mapping(t_uint256,t_address)": {
             "label": "mapping(uint256 => address)"
@@ -648,12 +483,6 @@
           "t_mapping(t_address,t_mapping(t_address,t_bool))": {
             "label": "mapping(address => mapping(address => bool))"
           },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_bool": {
-            "label": "bool"
-          },
           "t_array(t_uint256)44_storage": {
             "label": "uint256[44]"
           },
@@ -663,9 +492,9 @@
         }
       }
     },
-    "90d60c1cfdeaebfc7e023eeb684913b1ad78806b78ade46a26f17c2e48a116ad": {
-      "address": "0x247b273aCba69F6C5C948A45E26396EAf887B072",
-      "txHash": "0x2e82d4be8767748c275f7924cc8b9bb3809a8adbb5fc542906f519b65a23f0fd",
+    "2deb3fef21a7588b590c5ec7fc2e559876f15cd997ed1ab53d19e38029aede07": {
+      "address": "0x519C86F10Cf50FBABf8518808B43a11d0D47042c",
+      "txHash": "0xd5b915cc9855d71b478c146562847dbb8a32bfa180bc81020859fa016ed68888",
       "layout": {
         "storage": [
           {
@@ -735,99 +564,129 @@
             "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
           },
           {
+            "contract": "AccessControlUpgradeable",
+            "label": "_roles",
+            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
+          },
+          {
+            "contract": "AccessControlUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
+          },
+          {
             "contract": "CatanKeeper",
             "label": "controller",
-            "type": "t_contract(Catanstitution)4000",
-            "src": "../project:/contracts/CatanKeeper.sol:10"
+            "type": "t_contract(Catanstitution)4943",
+            "src": "../project:/contracts/CatanKeeper.sol:21"
           },
           {
             "contract": "CatanKeeper",
             "label": "tokenId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:11"
+            "src": "../project:/contracts/CatanKeeper.sol:22"
           },
           {
             "contract": "CatanKeeper",
             "label": "allowedRecorders",
-            "type": "t_contract(VoterPool)4832",
-            "src": "../project:/contracts/CatanKeeper.sol:12"
+            "type": "t_contract(VoterPool)8567",
+            "src": "../project:/contracts/CatanKeeper.sol:23"
           },
           {
             "contract": "CatanKeeper",
             "label": "twoPlayerGameId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:25"
+            "src": "../project:/contracts/CatanKeeper.sol:38"
           },
           {
             "contract": "CatanKeeper",
             "label": "threePlayerGameId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:26"
+            "src": "../project:/contracts/CatanKeeper.sol:39"
           },
           {
             "contract": "CatanKeeper",
             "label": "fourPlayerGameId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:27"
+            "src": "../project:/contracts/CatanKeeper.sol:40"
           },
           {
             "contract": "CatanKeeper",
             "label": "fivePlayerGameId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:28"
+            "src": "../project:/contracts/CatanKeeper.sol:41"
           },
           {
             "contract": "CatanKeeper",
             "label": "sixPlayerGameId",
             "type": "t_uint256",
-            "src": "../project:/contracts/CatanKeeper.sol:29"
+            "src": "../project:/contracts/CatanKeeper.sol:42"
           },
           {
             "contract": "CatanKeeper",
             "label": "recordedTwoPlayerGames",
-            "type": "t_mapping(t_uint256,t_struct(TwoPlayerGame)3572_storage)",
-            "src": "../project:/contracts/CatanKeeper.sol:31"
+            "type": "t_mapping(t_uint256,t_struct(TwoPlayer)7446_storage)",
+            "src": "../project:/contracts/CatanKeeper.sol:44"
           },
           {
             "contract": "CatanKeeper",
             "label": "recordedThreePlayerGames",
-            "type": "t_mapping(t_uint256,t_struct(ThreePlayerGame)3587_storage)",
-            "src": "../project:/contracts/CatanKeeper.sol:32"
+            "type": "t_mapping(t_uint256,t_struct(ThreePlayer)7461_storage)",
+            "src": "../project:/contracts/CatanKeeper.sol:45"
           },
           {
             "contract": "CatanKeeper",
             "label": "recordedFourPlayerGames",
-            "type": "t_mapping(t_uint256,t_struct(FourPlayerGame)3606_storage)",
-            "src": "../project:/contracts/CatanKeeper.sol:33"
+            "type": "t_mapping(t_uint256,t_struct(FourPlayer)7480_storage)",
+            "src": "../project:/contracts/CatanKeeper.sol:46"
           },
           {
             "contract": "CatanKeeper",
             "label": "recordedFivePlayerGames",
-            "type": "t_mapping(t_uint256,t_struct(FivePlayerGame)3629_storage)",
-            "src": "../project:/contracts/CatanKeeper.sol:34"
+            "type": "t_mapping(t_uint256,t_struct(FivePlayer)7503_storage)",
+            "src": "../project:/contracts/CatanKeeper.sol:47"
           },
           {
             "contract": "CatanKeeper",
             "label": "recordedSixPlayerGames",
-            "type": "t_mapping(t_uint256,t_struct(SixPlayerGame)3656_storage)",
-            "src": "../project:/contracts/CatanKeeper.sol:35"
+            "type": "t_mapping(t_uint256,t_struct(SixPlayer)7530_storage)",
+            "src": "../project:/contracts/CatanKeeper.sol:48"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "wins",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/CatanKeeper.sol:51"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "losses",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/CatanKeeper.sol:52"
+          },
+          {
+            "contract": "CatanKeeper",
+            "label": "highestWinMargin",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/CatanKeeper.sol:53"
           }
         ],
         "types": {
-          "t_contract(Catanstitution)4000": {
+          "t_contract(Catanstitution)4943": {
             "label": "contract Catanstitution"
           },
           "t_uint256": {
             "label": "uint256"
           },
-          "t_contract(VoterPool)4832": {
+          "t_contract(VoterPool)8567": {
             "label": "contract VoterPool"
           },
-          "t_mapping(t_uint256,t_struct(TwoPlayerGame)3572_storage)": {
-            "label": "mapping(uint256 => struct CatanKeeper.TwoPlayerGame)"
+          "t_mapping(t_uint256,t_struct(TwoPlayer)7446_storage)": {
+            "label": "mapping(uint256 => struct Games.TwoPlayer)"
           },
-          "t_struct(TwoPlayerGame)3572_storage": {
-            "label": "struct CatanKeeper.TwoPlayerGame",
+          "t_struct(TwoPlayer)7446_storage": {
+            "label": "struct Games.TwoPlayer",
             "members": [
               {
                 "label": "player_1",
@@ -860,11 +719,11 @@
           "t_string_storage": {
             "label": "string"
           },
-          "t_mapping(t_uint256,t_struct(ThreePlayerGame)3587_storage)": {
-            "label": "mapping(uint256 => struct CatanKeeper.ThreePlayerGame)"
+          "t_mapping(t_uint256,t_struct(ThreePlayer)7461_storage)": {
+            "label": "mapping(uint256 => struct Games.ThreePlayer)"
           },
-          "t_struct(ThreePlayerGame)3587_storage": {
-            "label": "struct CatanKeeper.ThreePlayerGame",
+          "t_struct(ThreePlayer)7461_storage": {
+            "label": "struct Games.ThreePlayer",
             "members": [
               {
                 "label": "player_1",
@@ -896,11 +755,11 @@
               }
             ]
           },
-          "t_mapping(t_uint256,t_struct(FourPlayerGame)3606_storage)": {
-            "label": "mapping(uint256 => struct CatanKeeper.FourPlayerGame)"
+          "t_mapping(t_uint256,t_struct(FourPlayer)7480_storage)": {
+            "label": "mapping(uint256 => struct Games.FourPlayer)"
           },
-          "t_struct(FourPlayerGame)3606_storage": {
-            "label": "struct CatanKeeper.FourPlayerGame",
+          "t_struct(FourPlayer)7480_storage": {
+            "label": "struct Games.FourPlayer",
             "members": [
               {
                 "label": "player_1",
@@ -940,11 +799,11 @@
               }
             ]
           },
-          "t_mapping(t_uint256,t_struct(FivePlayerGame)3629_storage)": {
-            "label": "mapping(uint256 => struct CatanKeeper.FivePlayerGame)"
+          "t_mapping(t_uint256,t_struct(FivePlayer)7503_storage)": {
+            "label": "mapping(uint256 => struct Games.FivePlayer)"
           },
-          "t_struct(FivePlayerGame)3629_storage": {
-            "label": "struct CatanKeeper.FivePlayerGame",
+          "t_struct(FivePlayer)7503_storage": {
+            "label": "struct Games.FivePlayer",
             "members": [
               {
                 "label": "player_1",
@@ -992,11 +851,11 @@
               }
             ]
           },
-          "t_mapping(t_uint256,t_struct(SixPlayerGame)3656_storage)": {
-            "label": "mapping(uint256 => struct CatanKeeper.SixPlayerGame)"
+          "t_mapping(t_uint256,t_struct(SixPlayer)7530_storage)": {
+            "label": "mapping(uint256 => struct Games.SixPlayer)"
           },
-          "t_struct(SixPlayerGame)3656_storage": {
-            "label": "struct CatanKeeper.SixPlayerGame",
+          "t_struct(SixPlayer)7530_storage": {
+            "label": "struct Games.SixPlayer",
             "members": [
               {
                 "label": "player_1",
@@ -1052,20 +911,42 @@
               }
             ]
           },
-          "t_mapping(t_uint256,t_address)": {
-            "label": "mapping(uint256 => address)"
-          },
           "t_mapping(t_address,t_uint256)": {
             "label": "mapping(address => uint256)"
           },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
+          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
+            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
+          },
+          "t_bytes32": {
+            "label": "bytes32"
+          },
+          "t_struct(RoleData)81_storage": {
+            "label": "struct AccessControlUpgradeable.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "type": "t_mapping(t_address,t_bool)"
+              },
+              {
+                "label": "adminRole",
+                "type": "t_bytes32"
+              }
+            ]
           },
           "t_mapping(t_address,t_bool)": {
             "label": "mapping(address => bool)"
           },
           "t_bool": {
             "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
           },
           "t_array(t_uint256)44_storage": {
             "label": "uint256[44]"
@@ -1076,349 +957,9 @@
         }
       }
     },
-    "f7d0de5f41dde3863df8debae7d6e75dbdd278e7198b2e5d7c3409e6b7f19839": {
-      "address": "0xeD6Bd74cBc11bE3D0a8445f833AC9A1E4f441d37",
-      "txHash": "0x53ffab153d2786ea3562e20f4472b302e19772cf90d1f40fde031aa766228b1c",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
-          },
-          {
-            "contract": "ContextUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
-          },
-          {
-            "contract": "ERC165Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_balances",
-            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:24"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_operatorApprovals",
-            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:27"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_uri",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:30"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)47_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:405"
-          },
-          {
-            "contract": "ERC1155BurnableUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/extensions/ERC1155BurnableUpgradeable.sol:40"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "_roles",
-            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)49_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "cvrHolders",
-            "type": "t_contract(VoterPool)4832",
-            "src": "../project:/contracts/Catanstitution.sol:23"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "rulerOfCatan",
-            "type": "t_contract(FluidVoteTitle)4552",
-            "src": "../project:/contracts/Catanstitution.sol:24"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "keeperOfTheCatanstitution",
-            "type": "t_contract(FluidVoteTitle)4552",
-            "src": "../project:/contracts/Catanstitution.sol:25"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "constitution",
-            "type": "t_contract(Constitution)4363",
-            "src": "../project:/contracts/Catanstitution.sol:26"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "catanKeeper",
-            "type": "t_contract(CatanKeeper)3787",
-            "src": "../project:/contracts/Catanstitution.sol:27"
-          }
-        ],
-        "types": {
-          "t_contract(VoterPool)4832": {
-            "label": "contract VoterPool"
-          },
-          "t_contract(FluidVoteTitle)4552": {
-            "label": "contract FluidVoteTitle"
-          },
-          "t_contract(Constitution)4363": {
-            "label": "contract Constitution"
-          },
-          "t_contract(CatanKeeper)3787": {
-            "label": "contract CatanKeeper"
-          },
-          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
-            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
-          },
-          "t_bytes32": {
-            "label": "bytes32"
-          },
-          "t_struct(RoleData)81_storage": {
-            "label": "struct AccessControlUpgradeable.RoleData",
-            "members": [
-              {
-                "label": "members",
-                "type": "t_mapping(t_address,t_bool)"
-              },
-              {
-                "label": "adminRole",
-                "type": "t_bytes32"
-              }
-            ]
-          },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_bool": {
-            "label": "bool"
-          },
-          "t_array(t_uint256)49_storage": {
-            "label": "uint256[49]"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_array(t_uint256)50_storage": {
-            "label": "uint256[50]"
-          },
-          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
-            "label": "mapping(uint256 => mapping(address => uint256))"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_string_storage": {
-            "label": "string"
-          },
-          "t_array(t_uint256)47_storage": {
-            "label": "uint256[47]"
-          }
-        }
-      }
-    },
-    "bf44aafed5b9fca9713515c1a9fa33981b12caf1dc0156882b46dd7c3c3ed2ab": {
-      "address": "0x151E0D468B32440D1104fF35e47D7477A5c706B0",
-      "txHash": "0x8a5ccccee255f5196ffb284fcfbd28404638c7039147cc5ee49f4d9ceb64a4c2",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
-          },
-          {
-            "contract": "ContextUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
-          },
-          {
-            "contract": "ERC165Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_balances",
-            "type": "t_mapping(t_uint256,t_mapping(t_address,t_uint256))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:24"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_operatorApprovals",
-            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:27"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "_uri",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:30"
-          },
-          {
-            "contract": "ERC1155Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)47_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol:405"
-          },
-          {
-            "contract": "ERC1155BurnableUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC1155/extensions/ERC1155BurnableUpgradeable.sol:40"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "_roles",
-            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)49_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "cvrHolders",
-            "type": "t_contract(VoterPool)4816",
-            "src": "../project:/contracts/Catanstitution.sol:23"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "rulerOfCatan",
-            "type": "t_contract(FluidVoteTitle)4537",
-            "src": "../project:/contracts/Catanstitution.sol:24"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "keeperOfTheCatanstitution",
-            "type": "t_contract(FluidVoteTitle)4537",
-            "src": "../project:/contracts/Catanstitution.sol:25"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "constitution",
-            "type": "t_contract(Constitution)4349",
-            "src": "../project:/contracts/Catanstitution.sol:26"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "catanKeeper",
-            "type": "t_contract(CatanKeeper)3787",
-            "src": "../project:/contracts/Catanstitution.sol:27"
-          }
-        ],
-        "types": {
-          "t_contract(VoterPool)4816": {
-            "label": "contract VoterPool"
-          },
-          "t_contract(FluidVoteTitle)4537": {
-            "label": "contract FluidVoteTitle"
-          },
-          "t_contract(Constitution)4349": {
-            "label": "contract Constitution"
-          },
-          "t_contract(CatanKeeper)3787": {
-            "label": "contract CatanKeeper"
-          },
-          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
-            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
-          },
-          "t_bytes32": {
-            "label": "bytes32"
-          },
-          "t_struct(RoleData)81_storage": {
-            "label": "struct AccessControlUpgradeable.RoleData",
-            "members": [
-              {
-                "label": "members",
-                "type": "t_mapping(t_address,t_bool)"
-              },
-              {
-                "label": "adminRole",
-                "type": "t_bytes32"
-              }
-            ]
-          },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_bool": {
-            "label": "bool"
-          },
-          "t_array(t_uint256)49_storage": {
-            "label": "uint256[49]"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_array(t_uint256)50_storage": {
-            "label": "uint256[50]"
-          },
-          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
-            "label": "mapping(uint256 => mapping(address => uint256))"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_string_storage": {
-            "label": "string"
-          },
-          "t_array(t_uint256)47_storage": {
-            "label": "uint256[47]"
-          }
-        }
-      }
-    },
-    "3a16b6507cd3d94224f507d3a8cbad421d203e688ebb1e75af84ffbb29ce9bd7": {
-      "address": "0xfff1E99766E6EF675fb05801496A107155476cbC",
-      "txHash": "0x76b64300e0d7baa22c727038786fa12bee98d6f1bfc17032c7939e5b056820f5",
+    "177445d9a5dc368fd8f7d152dcca5736fdf91b725e10ccd92a8d443d575d2683": {
+      "address": "0x4f4501be32813A84C3B8696361045ebbf3A8e7dE",
+      "txHash": "0x47476a131286aa54ac4093e400a87c560ab53f39f6793814c681ce6d37a7dffd",
       "layout": {
         "storage": [
           {
@@ -1503,19 +1044,19 @@
             "contract": "FluidVoteTitle",
             "label": "votes",
             "type": "t_mapping(t_address,t_address)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:9"
+            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:10"
           },
           {
             "contract": "FluidVoteTitle",
             "label": "voteCounts",
             "type": "t_mapping(t_address,t_uint256)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:10"
+            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:11"
           },
           {
             "contract": "FluidVoteTitle",
             "label": "voters",
-            "type": "t_contract(VoterPool)4816",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:11"
+            "type": "t_contract(VoterPool)8567",
+            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:12"
           }
         ],
         "types": {
@@ -1531,7 +1072,7 @@
           "t_uint256": {
             "label": "uint256"
           },
-          "t_contract(VoterPool)4816": {
+          "t_contract(VoterPool)8567": {
             "label": "contract VoterPool"
           },
           "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
@@ -1580,9 +1121,9 @@
         }
       }
     },
-    "73d20f6b89c6c195249013c4e200f6a007988daee382f1dbbd7c9d297788df1f": {
-      "address": "0xFf6739D1E654FC06feadf311BC6ce0df229fe137",
-      "txHash": "0x21b2db2df954e99c20e347e4c794c3a96a0f4478bcf65b0a7345595de1c58425",
+    "31203467f3d07cdb3a0e40c0aff184b20ffb68eb16ede2071b2e4353c55a889f": {
+      "address": "0x9c2C093c2D93B322691d30Ebb29DB9751bA7b342",
+      "txHash": "0x660577051ea44d8b772b2d38736d86da65bfabd6d7bc53587f8b9f5c75503c12",
       "layout": {
         "storage": [
           {
@@ -1610,48 +1151,6 @@
             "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
           },
           {
-            "contract": "ERC721Upgradeable",
-            "label": "_name",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:24"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_symbol",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:27"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_owners",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:30"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_balances",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:33"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_tokenApprovals",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:36"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_operatorApprovals",
-            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:39"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)44_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
-          },
-          {
             "contract": "AccessControlUpgradeable",
             "label": "_roles",
             "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
@@ -1664,39 +1163,21 @@
             "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
           },
           {
-            "contract": "FluidVoteTitle",
-            "label": "votes",
-            "type": "t_mapping(t_address,t_address)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:9"
-          },
-          {
-            "contract": "FluidVoteTitle",
-            "label": "voteCounts",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:10"
-          },
-          {
-            "contract": "FluidVoteTitle",
-            "label": "voters",
-            "type": "t_contract(VoterPool)4809",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:11"
+            "contract": "UserNameRegistry",
+            "label": "names",
+            "type": "t_mapping(t_address,t_string_storage)",
+            "src": "../project:/contracts/UserNameRegistry.sol:8"
           }
         ],
         "types": {
-          "t_mapping(t_address,t_address)": {
-            "label": "mapping(address => address)"
+          "t_mapping(t_address,t_string_storage)": {
+            "label": "mapping(address => string)"
           },
           "t_address": {
             "label": "address"
           },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_contract(VoterPool)4809": {
-            "label": "contract VoterPool"
+          "t_string_storage": {
+            "label": "string"
           },
           "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
             "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
@@ -1726,17 +1207,8 @@
           "t_array(t_uint256)49_storage": {
             "label": "uint256[49]"
           },
-          "t_string_storage": {
-            "label": "string"
-          },
-          "t_mapping(t_uint256,t_address)": {
-            "label": "mapping(uint256 => address)"
-          },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_array(t_uint256)44_storage": {
-            "label": "uint256[44]"
+          "t_uint256": {
+            "label": "uint256"
           },
           "t_array(t_uint256)50_storage": {
             "label": "uint256[50]"
@@ -1744,9 +1216,9 @@
         }
       }
     },
-    "f705582d38afab0ad9be1f9f5c541192a157b5d8f3a34219635eac8c6047882f": {
-      "address": "0xcE3C245897FCF7fd5e55A6ddd8d3ea187F81Bd70",
-      "txHash": "0xab0337dd5fbc7f552e3b6f0e67cb02a48850ab700b616edfbc6b61a689707a4c",
+    "00e5c260f52ec9dc432d8a5c5e25a9393f74b1511f39ecf80a162f5ef038c18e": {
+      "address": "0x060A32e0DF20d6DF1fEB308C1F1dc986eBBa2D6f",
+      "txHash": "0x75bf143fbba6dd768cbb8e1a8928d98947fdd675a7a93b3bb5eb2fc3c1a7344d",
       "layout": {
         "storage": [
           {
@@ -1817,365 +1289,77 @@
           },
           {
             "contract": "Catanstitution",
-            "label": "cvrHolders",
-            "type": "t_contract(VoterPool)4809",
-            "src": "../project:/contracts/Catanstitution.sol:23"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "rulerOfCatan",
-            "type": "t_contract(FluidVoteTitle)4530",
+            "label": "catanKeeper",
+            "type": "t_contract(CatanKeeper)4499",
             "src": "../project:/contracts/Catanstitution.sol:24"
           },
           {
             "contract": "Catanstitution",
-            "label": "keeperOfTheCatanstitution",
-            "type": "t_contract(FluidVoteTitle)4530",
-            "src": "../project:/contracts/Catanstitution.sol:25"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "constitution",
-            "type": "t_contract(Constitution)4345",
-            "src": "../project:/contracts/Catanstitution.sol:26"
-          },
-          {
-            "contract": "Catanstitution",
-            "label": "catanKeeper",
-            "type": "t_contract(CatanKeeper)3787",
-            "src": "../project:/contracts/Catanstitution.sol:27"
-          }
-        ],
-        "types": {
-          "t_contract(VoterPool)4809": {
-            "label": "contract VoterPool"
-          },
-          "t_contract(FluidVoteTitle)4530": {
-            "label": "contract FluidVoteTitle"
-          },
-          "t_contract(Constitution)4345": {
-            "label": "contract Constitution"
-          },
-          "t_contract(CatanKeeper)3787": {
-            "label": "contract CatanKeeper"
-          },
-          "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
-            "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
-          },
-          "t_bytes32": {
-            "label": "bytes32"
-          },
-          "t_struct(RoleData)81_storage": {
-            "label": "struct AccessControlUpgradeable.RoleData",
-            "members": [
-              {
-                "label": "members",
-                "type": "t_mapping(t_address,t_bool)"
-              },
-              {
-                "label": "adminRole",
-                "type": "t_bytes32"
-              }
-            ]
-          },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_bool": {
-            "label": "bool"
-          },
-          "t_array(t_uint256)49_storage": {
-            "label": "uint256[49]"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_array(t_uint256)50_storage": {
-            "label": "uint256[50]"
-          },
-          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
-            "label": "mapping(uint256 => mapping(address => uint256))"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_string_storage": {
-            "label": "string"
-          },
-          "t_array(t_uint256)47_storage": {
-            "label": "uint256[47]"
-          }
-        }
-      }
-    },
-    "6be0eaf818f5a71e5aec1c7d40ec12be14f292e9fab3adbc123d4d0b9d36520e": {
-      "address": "0x626CbA5ED998b002e6Dea6c137409D158f9CdEa2",
-      "txHash": "0xea04b3528dc71040ea6abf18d640b41e0ccc249fa0bfd7383f9e6bf98d0f7d3a",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
-          },
-          {
-            "contract": "ContextUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
-          },
-          {
-            "contract": "ERC165Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_name",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:24"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_symbol",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:27"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_owners",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:30"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_balances",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:33"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_tokenApprovals",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:36"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_operatorApprovals",
-            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:39"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)44_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
-          },
-          {
-            "contract": "OwnableUpgradeable",
-            "label": "_owner",
+            "label": "deFactoRRoC",
             "type": "t_address",
-            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+            "src": "../project:/contracts/Catanstitution.sol:29"
           },
           {
-            "contract": "OwnableUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)49_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+            "contract": "Catanstitution",
+            "label": "deFactoPH",
+            "type": "t_address",
+            "src": "../project:/contracts/Catanstitution.sol:30"
           },
           {
-            "contract": "FluidVoteTitle",
-            "label": "votes",
-            "type": "t_mapping(t_address,t_address)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:9"
+            "contract": "Catanstitution",
+            "label": "deFactoJaS",
+            "type": "t_address",
+            "src": "../project:/contracts/Catanstitution.sol:31"
           },
           {
-            "contract": "FluidVoteTitle",
-            "label": "voteCounts",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:10"
+            "contract": "Catanstitution",
+            "label": "cvrHolders",
+            "type": "t_contract(VoterPool)8567",
+            "src": "../project:/contracts/Catanstitution.sol:34"
           },
           {
-            "contract": "FluidVoteTitle",
-            "label": "voters",
-            "type": "t_contract(VoterPool)4775",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:11"
+            "contract": "Catanstitution",
+            "label": "rulerOfCatan",
+            "type": "t_contract(FluidVoteTitle)8255",
+            "src": "../project:/contracts/Catanstitution.sol:35"
+          },
+          {
+            "contract": "Catanstitution",
+            "label": "keeperOfTheCatanstitution",
+            "type": "t_contract(FluidVoteTitle)8255",
+            "src": "../project:/contracts/Catanstitution.sol:36"
+          },
+          {
+            "contract": "Catanstitution",
+            "label": "constitution",
+            "type": "t_contract(Constitution)8051",
+            "src": "../project:/contracts/Catanstitution.sol:37"
+          },
+          {
+            "contract": "Catanstitution",
+            "label": "userNames",
+            "type": "t_contract(UserNameRegistry)7633",
+            "src": "../project:/contracts/Catanstitution.sol:40"
           }
         ],
         "types": {
-          "t_mapping(t_address,t_address)": {
-            "label": "mapping(address => address)"
+          "t_contract(CatanKeeper)4499": {
+            "label": "contract CatanKeeper"
           },
           "t_address": {
             "label": "address"
           },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_contract(VoterPool)4775": {
+          "t_contract(VoterPool)8567": {
             "label": "contract VoterPool"
           },
-          "t_array(t_uint256)49_storage": {
-            "label": "uint256[49]"
+          "t_contract(FluidVoteTitle)8255": {
+            "label": "contract FluidVoteTitle"
           },
-          "t_string_storage": {
-            "label": "string"
+          "t_contract(Constitution)8051": {
+            "label": "contract Constitution"
           },
-          "t_mapping(t_uint256,t_address)": {
-            "label": "mapping(uint256 => address)"
-          },
-          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
-            "label": "mapping(address => mapping(address => bool))"
-          },
-          "t_mapping(t_address,t_bool)": {
-            "label": "mapping(address => bool)"
-          },
-          "t_bool": {
-            "label": "bool"
-          },
-          "t_array(t_uint256)44_storage": {
-            "label": "uint256[44]"
-          },
-          "t_array(t_uint256)50_storage": {
-            "label": "uint256[50]"
-          }
-        }
-      }
-    },
-    "aab41e360f6a569b77f3310ee5ff141b9192c5232f29429052446067c5566f5a": {
-      "address": "0x87aDDfD2C656A95e9ec757A8Fd3aafdFe3c9378F",
-      "txHash": "0xca05615e62fee40950faaa1a8a6089d6759452423f2593dc55c7c00123fb22fd",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:28"
-          },
-          {
-            "contract": "ContextUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
-          },
-          {
-            "contract": "ERC165Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)50_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol:35"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_name",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:24"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_symbol",
-            "type": "t_string_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:27"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_owners",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:30"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_balances",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:33"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_tokenApprovals",
-            "type": "t_mapping(t_uint256,t_address)",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:36"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "_operatorApprovals",
-            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:39"
-          },
-          {
-            "contract": "ERC721Upgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)44_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol:383"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "_roles",
-            "type": "t_mapping(t_bytes32,t_struct(RoleData)81_storage)",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:73"
-          },
-          {
-            "contract": "AccessControlUpgradeable",
-            "label": "__gap",
-            "type": "t_array(t_uint256)49_storage",
-            "src": "../@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol:252"
-          },
-          {
-            "contract": "FluidVoteTitle",
-            "label": "votes",
-            "type": "t_mapping(t_address,t_address)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:9"
-          },
-          {
-            "contract": "FluidVoteTitle",
-            "label": "voteCounts",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:10"
-          },
-          {
-            "contract": "FluidVoteTitle",
-            "label": "voters",
-            "type": "t_contract(VoterPool)4808",
-            "src": "../project:/contracts/open-orgs/FluidVoteTitle.sol:11"
-          }
-        ],
-        "types": {
-          "t_mapping(t_address,t_address)": {
-            "label": "mapping(address => address)"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_contract(VoterPool)4808": {
-            "label": "contract VoterPool"
+          "t_contract(UserNameRegistry)7633": {
+            "label": "contract UserNameRegistry"
           },
           "t_mapping(t_bytes32,t_struct(RoleData)81_storage)": {
             "label": "mapping(bytes32 => struct AccessControlUpgradeable.RoleData)"
@@ -2205,20 +1389,26 @@
           "t_array(t_uint256)49_storage": {
             "label": "uint256[49]"
           },
-          "t_string_storage": {
-            "label": "string"
+          "t_uint256": {
+            "label": "uint256"
           },
-          "t_mapping(t_uint256,t_address)": {
-            "label": "mapping(uint256 => address)"
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_mapping(t_uint256,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(uint256 => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
           },
           "t_mapping(t_address,t_mapping(t_address,t_bool))": {
             "label": "mapping(address => mapping(address => bool))"
           },
-          "t_array(t_uint256)44_storage": {
-            "label": "uint256[44]"
+          "t_string_storage": {
+            "label": "string"
           },
-          "t_array(t_uint256)50_storage": {
-            "label": "uint256[50]"
+          "t_array(t_uint256)47_storage": {
+            "label": "uint256[47]"
           }
         }
       }

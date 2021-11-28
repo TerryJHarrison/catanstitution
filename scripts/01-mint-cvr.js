@@ -4,10 +4,10 @@ const ethers = require('ethers');
 const Catanstitution = require('../client/src/contracts/Catanstitution.json');
 const addresses = require("./voters.json");
 
-const web3 = new Web3('https://rpc-mumbai.matic.today')
+const web3 = new Web3('http://127.0.0.1:7545')
 const catanstitution = new web3.eth.Contract(
     Catanstitution.abi,
-    Catanstitution.networks[80001].address);
+    Catanstitution.networks[1337].address);
 
 const loadWallet = async() => {
   const mnemonic = fs.readFileSync('../.secret', 'utf8');
