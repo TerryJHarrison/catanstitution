@@ -1,43 +1,44 @@
 import React from "react";
-import {Button, Dropdown, Modal} from "semantic-ui-react";
+import {Button, Dropdown, Header, Modal} from "semantic-ui-react";
 import {connect} from "react-redux";
-import {setVoteForKeeperOfTheCatanstitution} from "../../store/actions/cvr";
+import {setVoteForKeeperOfTheCatanstitution} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
-import {useFormInput} from "../../hooks/useFormState";
+import {useFormState} from "../../hooks/useFormState";
 
-const VoteOnKeeperOfTheCatanstitutionModal = ({setVoteForKeeperOfTheCatanstitution, closeContainer, votes}) => {
+const VoteOnKeeperOfTheCatanstitutionModal = ({setVoteForKeeperOfTheCatanstitution, votes, names}) => {
   const [isOpen, open, close] = useFormModal();
-  const [keeperOfTheCatanstitutionVote, handleKeeperOfTheCatanstitutionVoteChange] = useFormInput('');
+  const [keeperOfTheCatanstitutionVote, handleKeeperOfTheCatanstitutionVoteChange] = useFormState('');
 
   const submit = () => {
     close();
-    closeContainer();
     setVoteForKeeperOfTheCatanstitution(keeperOfTheCatanstitutionVote);
   };
 
   const options = Object.keys(votes).map(v => ({
     key: v,
-    text: v,
+    text: names.hasOwnProperty(v) ? names[v] : v,
     value: v
   }));
 
   return (
-    <Modal onClose={close} onOpen={open} open={isOpen} trigger={<Button>Vote for Keeper of the Catanstitution</Button>}>
-      <Modal.Header>Current Keeper</Modal.Header>
-      <Modal.Description>Keeper of the Catanstitution</Modal.Description>
+    <Modal onClose={close} onOpen={open} open={isOpen} trigger={<Button>Change Vote</Button>}>
+      <Modal.Header>Change Vote</Modal.Header>
       <Modal.Content>
+        <Header as="h2">Keeper of the Catanstitution</Header>
         <Dropdown placeholder='Address to vote for' search selection options={options} value={keeperOfTheCatanstitutionVote} onChange={handleKeeperOfTheCatanstitutionVoteChange}/>
-        <Button fluid onClick={submit} color="green">Vote</Button>
+        <p>May mint new CVR.</p>
       </Modal.Content>
       <Modal.Actions>
-        <Button color='black' onClick={close}>Cancel</Button>
+        <Button onClick={close} color='black'>Cancel</Button>
+        <Button onClick={submit} color="green">Vote</Button>
       </Modal.Actions>
     </Modal>
   );
 };
 
 const mapStateToProps = state => ({
-  votes: state.cvr.keeperOfTheCatanstitutionVotes
+  votes: state.catanstitution.keeperOfTheCatanstitutionVotes,
+  names: state.names.names
 });
 
 const actionCreators = {

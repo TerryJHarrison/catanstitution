@@ -9,14 +9,16 @@
     "clean": "truffle networks --clean",
     "networks": "truffle networks",
     "compile": "truffle compile --all",
-    "contract:size":  "truffle run contract-size"
+    "contract:size": "truffle run contract-size"
   },
   "dependencies": {
     "@openzeppelin/contracts-upgradeable": "^4.1.0",
     "@openzeppelin/truffle-upgrades": "^1.7.1",
     "@truffle/hdwallet-provider": "^1.4.0",
+    "eth-provider": "^0.7.0",
     "ethers": "^5.3.0",
     "truffle-contract-size": "^2.0.1",
-    "web3": "^1.3.6"
+    "web3": "^1.3.6",
+    "web3modal": "^1.9.3"
   }
 }

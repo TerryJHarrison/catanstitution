@@ -5,13 +5,14 @@ import CatanKeeper from "../../contracts/CatanKeeper.json";
 import FluidVoteTitle from "../../contracts/FluidVoteTitle.json";
 import Constitution from "../../contracts/Constitution.json";
 import VoterPool from "../../contracts/VoterPool.json";
+import UserNameRegistry from "../../contracts/UserNameRegistry.json";
 import {setup} from "../actions/web3";
 
 const web3 = store => next => async action => {
   switch(action.type){
     case actions.CONNECT_TO_CHAIN:
       try {
-        const web3 = await getWeb3();
+        const [web3, modal] = await getWeb3();
         const accounts = await web3.eth.getAccounts();
 
         const networkId = await web3.eth.getChainId();
@@ -20,43 +21,50 @@ const web3 = store => next => async action => {
           break;
         }
 
-        const cvr = new web3.eth.Contract(
+        const catanstitution = new web3.eth.Contract(
             Catanstitution.abi,
             Catanstitution.networks[networkId] && Catanstitution.networks[networkId].address,
         );
 
         const rulerOfCatan = new web3.eth.Contract(
           FluidVoteTitle.abi,
-          await cvr.methods.rulerOfCatan().call()
+          await catanstitution.methods.rulerOfCatan().call()
         );
 
         const keeperOfTheCatanstitution = new web3.eth.Contract(
           FluidVoteTitle.abi,
-          await cvr.methods.keeperOfTheCatanstitution().call()
+          await catanstitution.methods.keeperOfTheCatanstitution().call()
         );
 
         const constitution = new web3.eth.Contract(
             Constitution.abi,
-            await cvr.methods.constitution().call()
+            await catanstitution.methods.constitution().call()
         );
 
         const voterPool = new web3.eth.Contract(
             VoterPool.abi,
-            await cvr.methods.cvrHolders().call()
+            await catanstitution.methods.cvrHolders().call()
         );
 
         const keeper = new web3.eth.Contract(
           CatanKeeper.abi,
-          CatanKeeper.networks[networkId] && CatanKeeper.networks[networkId].address,
+          await catanstitution.methods.catanKeeper().call()
+        );
+
+        const names = new web3.eth.Contract(
+            UserNameRegistry.abi,
+            await catanstitution.methods.userNames().call()
         );
 
         await store.dispatch(setup(web3, accounts, {
-          cvr,
+          catanstitution,
           keeper,
           rulerOfCatan,
           keeperOfTheCatanstitution,
           constitution,
-          voterPool
+          voterPool,
+          names,
+          modal
         }));
       } catch (e) {
         console.error(e);

@@ -89,3 +89,18 @@ export const recordSixPlayerGame = game => ({
   type: actions.RECORD_SIX_PLAYER_GAME,
   game: game
 });
+
+export const setGamePlayerFilters = players => ({
+  type: actions.SET_GAME_PLAYER_FILTERS,
+  players: players
+});
+
+export const setGameVariationFilters = variations => ({
+  type: actions.SET_GAME_VARIATION_FILTERS,
+  variations: variations
+});
+
+export const setGamePlayerFiltersOptions = options => ({
+  type: actions.SET_GAME_PLAYER_FILTERS_OPTIONS,
+  options: options
+});

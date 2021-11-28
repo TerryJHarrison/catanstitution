@@ -33,7 +33,7 @@ const ResolveProposalsModal = ({proposals}) => {
 };
 
 const mapStateToProps = state => ({
-  proposals: state.cvr.proposals
+  proposals: state.catanstitution.proposals
 });
 
 export default connect(mapStateToProps)(ResolveProposalsModal);

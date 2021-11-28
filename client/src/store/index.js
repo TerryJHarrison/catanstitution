@@ -8,9 +8,8 @@ const initialState = {
     accounts: [],
     contracts: {}
   },
-  cvr: {
+  catanstitution: {
     balances: [],
-    ckg: 0,
     catanstitution: {
       amendments: [],
       numAmendments: 0
@@ -20,9 +19,8 @@ const initialState = {
     keeperOfTheCatanstitutionVotes: {},
     rulerOfCatanVotes: {},
     roles: {
-      RULER_OF_CATAN: false,
-      KEEPER_OF_THE_CATANSTITUTION: false,
-      SETTLER: false
+      rulerOfCatan: "",
+      keeperOfTheCatanstitution: ""
     }
   },
   keeper: {
@@ -32,7 +30,16 @@ const initialState = {
       four: [],
       five: [],
       six: []
+    },
+    filters: {
+      players: [],
+      playerOptions: 'hasAll',
+      variations: []
     }
+  },
+  names: {
+    names: {},
+    addresses: {}
   }
 };
 

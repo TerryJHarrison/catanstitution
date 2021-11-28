@@ -1,4 +1,5 @@
 import * as actions from '../actions';
+import {SET_GAME_PLAYER_FILTERS_OPTIONS} from "../actions";
 
 function keeper(state = {}, action) {
   const getWinner = (numPlayers, game) => {
@@ -93,6 +94,18 @@ function keeper(state = {}, action) {
           })
         })
       });
+    case actions.SET_GAME_PLAYER_FILTERS:
+      return Object.assign({}, state, {filters: Object.assign({}, state.filters, {
+        players: action.players
+        })});
+    case actions.SET_GAME_VARIATION_FILTERS:
+      return Object.assign({}, state, {filters: Object.assign({}, state.filters, {
+          variations: action.variations
+        })});
+    case actions.SET_GAME_PLAYER_FILTERS_OPTIONS:
+      return Object.assign({}, state, {filters: Object.assign({}, state.filters, {
+          playerOptions: action.options
+        })});
     default:
       return state;
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Dimmer, Divider, Grid, Icon, Loader, Segment} from "semantic-ui-react";
+import {Dimmer, Icon, Loader} from "semantic-ui-react";
 import {connect} from "react-redux";
 
 const CurrentProposalVotes = ({amendmentNum, votes}) => {
@@ -13,18 +13,14 @@ const CurrentProposalVotes = ({amendmentNum, votes}) => {
 
   const castVotes = Object.values(votes[amendmentNum]);
   return (
-    <Segment raised textAlign="center">
-      <Grid columns={3} relaxed='very'>
-        <Grid.Column><Icon name="thumbs up"/> {castVotes.filter(v => v === "1").length}</Grid.Column>
-        <Grid.Column><Divider vertical>VOTES</Divider></Grid.Column>
-        <Grid.Column><Icon name="thumbs down"/> {castVotes.filter(v => v === "2").length}</Grid.Column>
-      </Grid>
-    </Segment>
+    <span>
+      {castVotes.filter(v => v === "1").length}<Icon name="thumbs up"/> <Icon name="thumbs down"/>{castVotes.filter(v => v === "2").length}
+    </span>
   );
 };
 
 const mapStateToProps = state => ({
-  votes: state.cvr.votes
+  votes: state.catanstitution.votes
 });
 
 export default connect(mapStateToProps)(CurrentProposalVotes);

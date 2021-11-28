@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, Header, Modal} from "semantic-ui-react";
 import {connect} from "react-redux";
-import {resolveAmendment} from "../../store/actions/cvr";
+import {resolveAmendment} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
 import CurrentProposalVotes from "./CurrentProposalVotes";
 
@@ -11,7 +11,7 @@ const ResolveProposalModal = ({proposal, closeContainer, resolveAmendment}) => {
   const submit = () => {
     close();
     closeContainer();
-    resolveAmendment(proposal.amendmentNum);
+    resolveAmendment(proposal.author);
   }
 
   return (

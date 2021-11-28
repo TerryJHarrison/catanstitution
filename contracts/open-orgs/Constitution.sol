@@ -2,12 +2,15 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "./TitleAccess.sol";
 import "./VoterAccess.sol";
 import "./VoterPool.sol";
 import "./FluidVoteTitle.sol";
 
-contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
+contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess, AccessControlUpgradeable {
+
+    bytes32 public constant MANAGER = keccak256("MANAGER_ROLE");
 
     enum AmendmentStatus { PASSED, FAILED, PROPOSED }
     enum VoteStatus { NOT_VOTED, FOR, AGAINST }
@@ -18,10 +21,12 @@ contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
     function initialize(string memory _name, string memory _symbol, VoterPool _voterPool) public initializer {
         ERC721Upgradeable.__ERC721_init(_name, _symbol);
         voterPool = _voterPool;
+
+        _setRoleAdmin(MANAGER, MANAGER);
+        _setupRole(MANAGER, msg.sender);
     }
 
-    //TODO: access control
-    function setResolver(SingleHolderTitle _resolver) public {
+    function setResolver(SingleHolderTitle _resolver) public onlyRole(MANAGER) {
         resolver = _resolver;
     }
 
@@ -68,7 +73,7 @@ contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
         //Count votes - each voter gets a single vote
         uint256 votesFor = 0;
         for (uint256 i = 0; i < numVoters; i++) {
-            address voter = voterPool.voterRegistrations(i);
+            address voter = voterPool.getVoter(i);
             if(proposalVotes[voter][amendmentNum] == VoteStatus.FOR){
                 votesFor += 1;
             }
@@ -77,7 +82,7 @@ contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
         //Find the amendment
         Amendment memory a;
         for (uint256 i = 0; i < numVoters; i++) {
-            address voter = voterPool.voterRegistrations(i);
+            address voter = voterPool.getVoter(i);
             if(proposals[voter].amendmentNum == amendmentNum){
                 a = proposals[voter];
                 break;
@@ -94,8 +99,12 @@ contract Constitution is ERC721Upgradeable, TitleAccess, VoterAccess {
         }
     }
 
-    function resolveAmendment(uint256 amendmentNum) public onlyTitleHolder(resolver) {
-        //TODO: check if enough votes have been cast
-        _resolveAmendmentVote(amendmentNum);
+    function resolveAmendment(address proposer) public onlyTitleHolder(resolver) {
+        require(proposals[proposer].numVotes >= voterPool.numVoters() - 1, "Not enough votes cast");
+        _resolveAmendmentVote(proposals[proposer].amendmentNum);
+    }
+
+    function supportsInterface(bytes4 interfaceId) public view override(ERC721Upgradeable, AccessControlUpgradeable) returns (bool) {
+        return super.supportsInterface(interfaceId);
     }
 }

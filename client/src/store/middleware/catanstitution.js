@@ -7,7 +7,7 @@ import {
   getCurrentProposalsVotes,
   getKeeperOfTheCatanstitutionVotes,
   getRoles,
-  getRulerOfCatanVotes,
+  getRulerOfCatanVotes, getTrophyHolders,
   setBalance,
   setBalances,
   setCatanstitution,
@@ -15,11 +15,12 @@ import {
   setCurrentProposalsVotes,
   setKeeperOfTheCatanstitutionVotes,
   setRoles,
-  setRulerOfCatanVotes,
-} from "../actions/cvr";
-import {CKG_TOKEN_ID, CVR_TOKEN_ID} from "../../constants";
+  setRulerOfCatanVotes, setTrophyHolders,
+} from "../actions/catanstitution";
+import {AMENDMENT_PROPOSED, CKG_TOKEN_ID, CVR_TOKEN_ID} from "../../constants";
+import {formatBytes32String} from "ethers/lib/utils";
 
-const cvr = store => next => async action => {
+const catanstitution = store => next => async action => {
   const {web3} = store.getState();
   const {connection, accounts, contracts} = web3;
   if(!connection){return next(action);}
@@ -29,34 +30,31 @@ const cvr = store => next => async action => {
       const rulerOfCatan = await (await contracts.rulerOfCatan.methods.holder.call()).call();
       const keeperOfTheCatanstitution = await (await contracts.keeperOfTheCatanstitution.methods.holder.call()).call();
 
-      const cvrBalance = await contracts.cvr.methods.balanceOf(accounts[0], CVR_TOKEN_ID).call();
-      store.dispatch(setBalance(cvrBalance));
-
       store.dispatch(setRoles({
-        RULER_OF_CATAN: accounts[0] === rulerOfCatan,
-        KEEPER_OF_THE_CATANSTITUTION: accounts[0] === keeperOfTheCatanstitution,
-        SETTLER: cvrBalance > 0, //TODO: check if balance over threshold? / use balance already pulled
-        ANY: accounts[0] === rulerOfCatan || accounts[0] === keeperOfTheCatanstitution || cvrBalance > 0
-      }))
+        rulerOfCatan: rulerOfCatan,
+        keeperOfTheCatanstitution: keeperOfTheCatanstitution
+      }));
       break;
     case actions.GET_BALANCE: {
-      const amount = await contracts.cvr.methods.balanceOf(accounts[0], CVR_TOKEN_ID).call();
-      store.dispatch(setBalance(amount));
+      const cvrBalance = await contracts.catanstitution.methods.balanceOf(accounts[0], CVR_TOKEN_ID).call();
+      const ckgBalance = await contracts.catanstitution.methods.balanceOf(accounts[0], CKG_TOKEN_ID).call();
+      store.dispatch(setBalance(cvrBalance, ckgBalance));
       break;
     }
     case actions.GET_BALANCES: {
       const numVoters = await contracts.voterPool.methods.numVoters().call();
       const balances = [];
       for (let i = 0; i < numVoters; i++) {
-        const voter = await contracts.voterPool.methods.voterRegistrations(i).call();
-        const amount = await contracts.cvr.methods.balanceOf(voter, CVR_TOKEN_ID).call();
+        const voter = await contracts.voterPool.methods.getVoter(i).call();
+        const cvrBalance = await contracts.catanstitution.methods.balanceOf(voter, CVR_TOKEN_ID).call();
+        const ckgBalance = await contracts.catanstitution.methods.balanceOf(voter, CKG_TOKEN_ID).call();
         balances.push({
           address: voter,
-          balance: amount
+          cvr: cvrBalance,
+          ckg: ckgBalance
         });
       }
-      const ckg = await contracts.cvr.methods.balanceOf(accounts[0], CKG_TOKEN_ID).call();
-      store.dispatch(setBalances(balances, ckg));
+      store.dispatch(setBalances(balances));
       break;
     }
     case actions.GET_CATANSTITUTION:
@@ -71,11 +69,11 @@ const cvr = store => next => async action => {
       }));
       break;
     case actions.GET_CURRENT_PROPOSALS: {
-      const {cvr} = store.getState();
+      const {catanstitution} = store.getState();
       const currentProposals = [];
-      for (const voter of cvr.balances) {
+      for (const voter of catanstitution.balances) {
         const proposal = await contracts.constitution.methods.proposals(voter.address).call();
-        if (proposal.status === "2") {//TODO map enums from contract
+        if (proposal.status === AMENDMENT_PROPOSED) {
           currentProposals.push(proposal);
         }
       }
@@ -83,7 +81,7 @@ const cvr = store => next => async action => {
       break;
     }
     case actions.GET_CURRENT_PROPOSALS_VOTES: {
-      const {cvr: {proposals, balances}} = store.getState();
+      const {catanstitution: {proposals, balances}} = store.getState();
       const votes = {};
       for (const proposal of proposals) {
         votes[proposal.amendmentNum] = {};
@@ -94,25 +92,35 @@ const cvr = store => next => async action => {
       store.dispatch(setCurrentProposalsVotes(votes));
       break;
     }
+    case actions.REGISTER_TO_VOTE:
+      await contracts.catanstitution.methods.registerForTrophies().send({
+        from: accounts[0],
+        gasLimit: 500000
+      });
+      await store.dispatch(getBalances());
+      store.dispatch(getRoles());
+      break;
+    case actions.SEND_VOTER_TOKEN:
+      await contracts.catanstitution.methods.safeTransferFrom(accounts[0], action.address, CVR_TOKEN_ID, 1, formatBytes32String("CVR")).send({
+        from: accounts[0],
+        gasLimit: 500000
+      });
+      break;
     case actions.MINT_TOKEN: {
-      await contracts.cvr.methods.mint(action.address, CVR_TOKEN_ID, action.amount).send({
+      await contracts.catanstitution.methods.mintVoterToken(action.address, action.amount).send({
         from: accounts[0],
         gasLimit: 500000
       });
       //reload relevant data
-      if(action.address === accounts[0]){
-        //only if minting to self
-        await store.dispatch(getBalance());
-        store.dispatch(getRoles());
-      }
       await store.dispatch(getBalances());
+      store.dispatch(getRoles());
       store.dispatch(getKeeperOfTheCatanstitutionVotes());
       store.dispatch(getRulerOfCatanVotes());
       store.dispatch(getCurrentProposalsVotes());
       break;
     }
     case actions.BURN_TOKEN:
-      await contracts.cvr.methods.burn(accounts[0], CVR_TOKEN_ID, action.amount).send({
+      await contracts.catanstitution.methods.burn(accounts[0], CVR_TOKEN_ID, action.amount).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -122,7 +130,7 @@ const cvr = store => next => async action => {
       store.dispatch(getBalances());
       break;
     case actions.RESOLVE_AMENDMENT:
-      await contracts.constitution.methods.resolveAmendment(action.amendmentNum).send({
+      await contracts.constitution.methods.resolveAmendment(action.author).send({
         from: accounts[0],
         gasLimit: 500000
       });
@@ -149,7 +157,7 @@ const cvr = store => next => async action => {
       store.dispatch(getCurrentProposalsVotes());
       break;
     case actions.GET_KEEPER_OF_THE_CATANSTITUTION_VOTES: {
-      const {cvr: {balances}} = store.getState();
+      const {catanstitution: {balances}} = store.getState();
       const votes = {};
       for(const voter of balances){
         votes[voter.address] = await contracts.keeperOfTheCatanstitution.methods.voteCounts(voter.address).call();
@@ -167,7 +175,7 @@ const cvr = store => next => async action => {
       store.dispatch(getKeeperOfTheCatanstitutionVotes());
       break;
     case actions.GET_RULER_OF_CATAN_VOTES: {
-      const {cvr: {balances}} = store.getState();
+      const {catanstitution: {balances}} = store.getState();
       const votes = {};
       for(const voter of balances){
         votes[voter.address] = await contracts.rulerOfCatan.methods.voteCounts(voter.address).call();
@@ -184,10 +192,23 @@ const cvr = store => next => async action => {
       //Reload relevant data
       store.dispatch(getRulerOfCatanVotes());
       break;
+    case actions.GET_TROPHY_HOLDERS:
+      const RRoC = await contracts.catanstitution.methods.deFactoRRoC().call();
+      const PH = await contracts.catanstitution.methods.deFactoPH().call();
+      const JaS = await contracts.catanstitution.methods.deFactoJaS().call();
+      store.dispatch(setTrophyHolders(RRoC, PH, JaS));
+      break;
+    case actions.UPDATE_TROPHIES:
+      await contracts.catanstitution.methods.transferClaimableTrophies().send({
+        from: accounts[0],
+        gasLimit: 500000
+      });
+      store.dispatch(getTrophyHolders());
+      break;
     default:
       break;
   }
   return next(action);
 };
 
-export default cvr;
+export default catanstitution;

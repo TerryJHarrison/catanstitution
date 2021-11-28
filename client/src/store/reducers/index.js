@@ -1,10 +1,12 @@
 import { combineReducers } from "redux";
 import web3 from './web3';
-import cvr from './cvr';
+import catanstitution from './catanstitution';
 import keeper from './keeper';
+import names from './names';
 
 export default combineReducers({
   web3,
-  cvr,
-  keeper
+  catanstitution,
+  keeper,
+  names
 });

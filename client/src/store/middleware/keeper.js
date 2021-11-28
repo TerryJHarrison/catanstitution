@@ -12,7 +12,7 @@ import {
   getRecordedThreePlayerGames
 } from "../actions/keeper";
 
-const cvr = store => next => async action => {
+const keeper = store => next => async action => {
   //Must be connected to network
   const {web3, keeper} = store.getState();
   const {connection, contracts, accounts} = web3;
@@ -160,4 +160,4 @@ const cvr = store => next => async action => {
   return next(action);
 };
 
-export default cvr;
+export default keeper;

@@ -1,43 +1,44 @@
 import React from "react";
-import {Button, Dropdown, Modal} from "semantic-ui-react";
+import {Button, Dropdown, Header, Modal} from "semantic-ui-react";
 import {connect} from "react-redux";
-import {setVoteForRulerOfCatan} from "../../store/actions/cvr";
+import {setVoteForRulerOfCatan} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
-import {useFormInput} from "../../hooks/useFormState";
+import {useFormState} from "../../hooks/useFormState";
 
-const VoteOnRulerOfCatanModal = ({setVoteForRulerOfCatan, closeContainer, votes}) => {
+const VoteOnRulerOfCatanModal = ({setVoteForRulerOfCatan, votes, names}) => {
   const [isOpen, open, close] = useFormModal();
-  const [rulerOfCatanVote, handleRulerOfCatanVoteChange] = useFormInput('');
+  const [rulerOfCatanVote, handleRulerOfCatanVoteChange] = useFormState('');
 
   const submit = () => {
     close();
-    closeContainer();
     setVoteForRulerOfCatan(rulerOfCatanVote);
   };
 
   const options = Object.keys(votes).map(v => ({
     key: v,
-    text: v,
+    text: names.hasOwnProperty(v) ? names[v] : v,
     value: v
   }));
 
   return (
-    <Modal onClose={close} onOpen={open} open={isOpen} trigger={<Button>Vote for Ruler of Catan</Button>}>
-      <Modal.Header>Current Ruler</Modal.Header>
-      <Modal.Description>Ruler of Catan</Modal.Description>
+    <Modal onClose={close} onOpen={open} open={isOpen} trigger={<Button>Change Vote</Button>}>
+      <Modal.Header>Change Vote</Modal.Header>
       <Modal.Content>
-        <Dropdown placeholder='Address to vote for' search selection options={options} value={rulerOfCatanVote} onChange={handleRulerOfCatanVoteChange}/>
-        <Button fluid onClick={submit} color="green">Vote</Button>
+        <Header as="h2">Ruler of Catan</Header>
+        <Dropdown placeholder='Choose ruler' search selection options={options} value={rulerOfCatanVote} onChange={handleRulerOfCatanVoteChange}/>
+        <p>May resolve active proposals that have hit the required quorum of votes and can initiate a vote to nullify a passed amendment. Decides tiebreakers for other elected positions.</p>
       </Modal.Content>
       <Modal.Actions>
-        <Button color='black' onClick={close}>Cancel</Button>
+        <Button onClick={close} color='black'>Cancel</Button>
+        <Button onClick={submit} color="green">Vote</Button>
       </Modal.Actions>
     </Modal>
   );
 };
 
 const mapStateToProps = state => ({
-  votes: state.cvr.rulerOfCatanVotes
+  votes: state.catanstitution.rulerOfCatanVotes,
+  names: state.names.names
 });
 
 const actionCreators = {

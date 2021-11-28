@@ -1,13 +1,13 @@
 import React from "react";
 import {Button, Form, Modal} from "semantic-ui-react";
 import {connect} from "react-redux";
-import {burnToken} from "../../store/actions/cvr";
+import {burnToken} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
-import {useFormInput} from "../../hooks/useFormState";
+import {useFormState} from "../../hooks/useFormState";
 
 const BurnTokenModal = ({burnToken}) => {
   const [isOpen, open, close] = useFormModal();
-  const [amount, handleAmountChange] = useFormInput(0);
+  const [amount, handleAmountChange] = useFormState(0);
 
   const submit = () => {
     close();

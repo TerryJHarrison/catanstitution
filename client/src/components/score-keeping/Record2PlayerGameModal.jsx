@@ -3,21 +3,23 @@ import React from "react";
 import {connect} from "react-redux";
 import {recordTwoPlayerGame} from "../../store/actions/keeper";
 import {useFormModal} from "../../hooks/useFormModal";
+import GameVariationFormField from "./GameVariationFormField";
+import PlayerAddressFormField from "./PlayerAddressFormField";
+import PlayerVPFormField from "./PlayerVPFormField";
 
-const Record2PlayerGameModal = (
-  {
-    p1,
-    p2,
-    p1Vp,
-    p2Vp,
-    variation,
-    handleP1Change,
-    handleP2Change,
-    handleP1VpChange,
-    handleP2VpChange,
-    handleVariationChange,
-    recordTwoPlayerGame
-  }) => {
+const Record2PlayerGameModal = ({
+  p1,
+  p2,
+  p1Vp,
+  p2Vp,
+  variation,
+  handleP1Change,
+  handleP2Change,
+  handleP1VpChange,
+  handleP2VpChange,
+  handleVariationChange,
+  recordTwoPlayerGame
+}) => {
   const [isOpen, open, close] = useFormModal();
   const submit = () => {
     close();
@@ -28,26 +30,11 @@ const Record2PlayerGameModal = (
       <Modal.Header>Record Game</Modal.Header>
       <Modal.Content>
         <Form>
-          <Form.Field>
-            <label>Player 1 Address</label>
-            <Form.Input placeholder='0x0123...' name='p1' value={p1} onChange={handleP1Change}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Player 2 Address</label>
-            <Form.Input placeholder='0x0123...' name='p2' value={p2} onChange={handleP2Change}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Player 1 VP</label>
-            <Form.Input placeholder='10' name='p1Vp' value={p1Vp} onChange={handleP1VpChange}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Player 2 VP</label>
-            <Form.Input placeholder='9' name='p2Vp' value={p2Vp} onChange={handleP2VpChange}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Game Variation</label>
-            <Form.Input placeholder='Base' name='variation' value={variation} onChange={handleVariationChange}/>
-          </Form.Field>
+          <PlayerAddressFormField playerNum={1} value={p1} onChange={handleP1Change}/>
+          <PlayerAddressFormField playerNum={2} value={p2} onChange={handleP2Change}/>
+          <PlayerVPFormField playerNum={1} value={p1Vp} onChange={handleP1VpChange}/>
+          <PlayerVPFormField playerNum={2} value={p2Vp} onChange={handleP2VpChange}/>
+          <GameVariationFormField value={variation} onChange={handleVariationChange}/>
         </Form>
       </Modal.Content>
       <Modal.Actions>
@@ -60,6 +47,6 @@ const Record2PlayerGameModal = (
 
 const actionCreators = {
   recordTwoPlayerGame
-}
+};
 
 export default connect(null, actionCreators)(Record2PlayerGameModal);

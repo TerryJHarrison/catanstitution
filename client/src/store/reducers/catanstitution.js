@@ -1,6 +1,6 @@
 import * as actions from '../actions';
 
-function cvr(state = {}, action) {
+function catanstitution(state = {}, action) {
   switch(action.type){
     case actions.SET_ROLES:
       return Object.assign({}, state, {
@@ -12,12 +12,12 @@ function cvr(state = {}, action) {
       });
     case actions.SET_BALANCE:
       return Object.assign({}, state, {
-        balance: action.amount
+        cvrBalance: action.cvr,
+        ckgBalance: action.ckg
       });
     case actions.SET_BALANCES:
       return Object.assign({}, state, {
-        balances: action.balances,
-        ckg: action.ckg
+        balances: action.balances
       });
     case actions.SET_CURRENT_PROPOSALS:
       return Object.assign({}, state, {
@@ -35,9 +35,15 @@ function cvr(state = {}, action) {
       return Object.assign({}, state, {
         rulerOfCatanVotes: action.votes
       });
+    case actions.SET_TROPHY_HOLDERS:
+      return Object.assign({}, state, {
+        RRoC: action.RRoC,
+        PH: action.PH,
+        JaS: action.JaS
+      });
     default:
       return state;
   }
 }
 
-export default cvr;
+export default catanstitution;

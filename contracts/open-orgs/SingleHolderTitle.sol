@@ -23,12 +23,12 @@ contract SingleHolderTitle is ERC721Upgradeable, AccessControlUpgradeable {
 
     function changeHolder(address newHolder) onlyRole(TITLE_OPERATOR) public {
         //bypass approval check, always allowing operator to change holder
-        _safeTransfer(holder(), newHolder, 0, ""); //TODO: get data from somewhere?
+        _safeTransfer(holder(), newHolder, 0, "");
     }
 
     function _changeHolder(address newHolder) internal {
         //bypass approval check, allowing implementing contracts to change holders programmatically
-        _safeTransfer(holder(), newHolder, 0, ""); //TODO: get data from somewhere?
+        _safeTransfer(holder(), newHolder, 0, "");
     }
 
     function holder() public virtual returns (address) {

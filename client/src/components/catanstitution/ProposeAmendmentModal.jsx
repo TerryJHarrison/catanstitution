@@ -1,13 +1,13 @@
 import React from "react";
 import {Button, Form, Modal} from "semantic-ui-react";
 import {connect} from "react-redux";
-import {getCurrentProposals, getCurrentProposalsVotes, proposeAmendment} from "../../store/actions/cvr";
+import {getCurrentProposals, getCurrentProposalsVotes, proposeAmendment} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
-import {useFormInput} from "../../hooks/useFormState";
+import {useFormState} from "../../hooks/useFormState";
 
 const ProposeAmendmentModal = ({proposeAmendment, getCurrentProposals, getCurrentProposalsVotes}) => {
   const [isOpen, open, close] = useFormModal();
-  const [amendment, handleAmendmentChange] = useFormInput('');
+  const [amendment, handleAmendmentChange] = useFormState('');
 
   const submit = () => {
     close();

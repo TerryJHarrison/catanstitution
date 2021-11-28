@@ -8,18 +8,17 @@ import {
   getCurrentProposalsVotes,
   getRoles,
   mintToken
-} from "../../store/actions/cvr";
+} from "../../store/actions/catanstitution";
 import {useFormModal} from "../../hooks/useFormModal";
-import {useFormInput} from "../../hooks/useFormState";
+import {useFormState} from "../../hooks/useFormState";
 
 const MintTokenModal = ({mintToken, getRoles, getBalance, getBalances, getCurrentProposals, getCurrentProposalsVotes}) => {
   const [isOpen, open, close] = useFormModal();
-  const [address, handleAddressChange] = useFormInput('');
-  const [amount, handleAmountChange] = useFormInput(0);
+  const [address, handleAddressChange] = useFormState('');
 
   const submit = () => {
     close();
-    mintToken(address, amount).then(() => {
+    mintToken(address, 1).then(() => {
       getBalance();
       getRoles();
       getBalances().then(() => {
@@ -32,16 +31,12 @@ const MintTokenModal = ({mintToken, getRoles, getBalance, getBalances, getCurren
 
   return (
     <Modal onClose={close} onOpen={open} open={isOpen}  trigger={<Button>Mint CVR</Button>}>
-      <Modal.Header>Mint CVR</Modal.Header>
+      <Modal.Header>Register Voter</Modal.Header>
       <Modal.Content>
         <Form>
           <Form.Field>
             <label>Receiving Address</label>
             <Form.Input placeholder='0x0123...' name='address' value={address} onChange={handleAddressChange}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Amount (whole CVR)</label>
-            <Form.Input placeholder='1' name='amount' value={amount} onChange={handleAmountChange}/>
           </Form.Field>
         </Form>
       </Modal.Content>

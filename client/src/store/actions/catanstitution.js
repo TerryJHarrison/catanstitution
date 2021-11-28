@@ -45,6 +45,21 @@ export const mintToken = (address, amount) => ({
   }
 });
 
+export const registerToVote = () => ({
+  type: actions.REGISTER_TO_VOTE,
+  meta: {
+    throttle: 500
+  }
+});
+
+export const sendVoterToken = address => ({
+  type: actions.SEND_VOTER_TOKEN,
+  address: address,
+  meta: {
+    throttle: 500
+  }
+});
+
 export const burnToken = amount => ({
   type: actions.BURN_TOKEN,
   amount: amount,
@@ -53,9 +68,9 @@ export const burnToken = amount => ({
   }
 });
 
-export const resolveAmendment = amendmentNum => ({
+export const resolveAmendment = author => ({
   type: actions.RESOLVE_AMENDMENT,
-  amendmentNum: amendmentNum,
+  author: author,
   meta: {
     throttle: 500
   }
@@ -82,19 +97,19 @@ export const getBalance = () => ({
   type: actions.GET_BALANCE
 });
 
-export const setBalance = amount => ({
+export const setBalance = (cvr, ckg) => ({
   type: actions.SET_BALANCE,
-  amount: amount
+  cvr: cvr,
+  ckg: ckg
 });
 
 export const getBalances = () => ({
   type: actions.GET_BALANCES
 });
 
-export const setBalances = (balances, ckg) => ({
+export const setBalances = (balances) => ({
   type: actions.SET_BALANCES,
-  balances: balances,
-  ckg: ckg
+  balances: balances
 });
 
 export const getKeeperOfTheCatanstitutionVotes = () => ({
@@ -124,3 +139,18 @@ export const setVoteForRulerOfCatan = address => ({
   type: actions.SET_VOTE_FOR_RULER_OF_CATAN,
   address: address
 });
+
+export const getTrophyHolders = () => ({
+  type: actions.GET_TROPHY_HOLDERS
+});
+
+export const setTrophyHolders = (RRoC, PH, JaS) => ({
+  type: actions.SET_TROPHY_HOLDERS,
+  RRoC: RRoC,
+  PH: PH,
+  JaS: JaS
+});
+
+export const updateTrophies = () => ({
+  type: actions.UPDATE_TROPHIES
+})
