@@ -1,27 +1,8 @@
 import React from 'react';
-import {Button, Grid, GridColumn, GridRow, Header, Segment} from "semantic-ui-react";
+import {Grid, GridColumn, Header, Segment} from "semantic-ui-react";
 import AccountBalance from "./AccountBalance";
 import AddressLabel from "./AddressLabel";
 import {connect} from "react-redux";
-import Web3Modal from "web3modal";
-import ethProvider from "eth-provider";
-import Authereum from "authereum";
-
-// const providerOptions = {
-//   frame: {
-//     package: ethProvider
-//   },
-//   authereum: {
-//     package: Authereum
-//   }
-// };
-//
-// const web3Modal = new Web3Modal({
-//   cacheProvider: true,
-//   providerOptions
-// });
-
-//<Button onClick={web3Modal.connect} icon="circle"/>
 
 const NetworkSelection = ({address}) => {
   return (

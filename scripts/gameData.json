@@ -1010,5 +1010,39 @@
     "player_3": "brett",
     "player_3_vp": "5",
     "num_players": 3
+  },{
+    "recorder": "tj",
+    "variation": "The Settlers of Catan",
+    "player_1": "brett",
+    "player_1_vp": "10",
+    "player_2": "tj",
+    "player_2_vp": "5",
+    "player_3": "justin",
+    "player_3_vp": "5",
+    "player_4": "pease",
+    "player_4_vp": "8",
+    "num_players": 4
+  }, {
+    "recorder": "tj",
+    "variation": "The Settlers of Catan",
+    "player_1": "justin",
+    "player_1_vp": "7",
+    "player_2": "andrew",
+    "player_2_vp": "7",
+    "player_3": "tj",
+    "player_3_vp": "10",
+    "num_players": 3
+  },{
+    "recorder": "justin",
+    "variation": "The Settlers of Catan",
+    "player_1": "bryan",
+    "player_1_vp": "8",
+    "player_2": "justin",
+    "player_2_vp": "10",
+    "player_3": "andrew",
+    "player_3_vp": "7",
+    "player_4": "tj",
+    "player_4_vp": "8",
+    "num_players": 4
   }]
 }

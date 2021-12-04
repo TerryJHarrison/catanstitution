@@ -4,7 +4,7 @@
   "scripts": {
     "deploy:local": "truffle migrate --compile-all --network local --f 2",
     "deploy:local:init": "truffle migrate --compile-all --network local --f 1 --to 1",
-    "deploy:qa": "truffle migrate --compile-all--network mumbai --f 2",
+    "deploy:qa": "truffle migrate --compile-all --network mumbai --f 2",
     "deploy:qa:init": "truffle migrate --compile-all --network mumbai --f 1 --to 1",
     "clean": "truffle networks --clean",
     "networks": "truffle networks",

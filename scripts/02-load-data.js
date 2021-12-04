@@ -4,7 +4,7 @@ const ethers = require('ethers');
 const Catanstitution = require('../client/src/contracts/Catanstitution.json');
 const CatanKeeper = require('../client/src/contracts/CatanKeeper.json');
 const gameData = require("./gameData.json");
-const addresses = require("./addresses.json");
+const addresses = require("./addresses-testnet.json");
 
 const web3 = new Web3('http://127.0.0.1:7545')
 const catanstitution = new web3.eth.Contract(Catanstitution.abi, Catanstitution.networks[1337].address);

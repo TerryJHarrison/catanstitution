@@ -2,7 +2,7 @@ const fs = require('fs');
 const Web3 = require('web3');
 const ethers = require('ethers');
 const Catanstitution = require('../client/src/contracts/Catanstitution.json');
-const addresses = require("./voters.json");
+const addresses = require("./voters-localnet.json");
 
 const web3 = new Web3('http://127.0.0.1:7545')
 const catanstitution = new web3.eth.Contract(

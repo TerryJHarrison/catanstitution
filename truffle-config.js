@@ -13,7 +13,7 @@ module.exports = {
       skipDryRun: true
     },
     mumbai: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rpc-mumbai.matic.today`),
+      provider: () => new HDWalletProvider(mnemonic, `https://polygon-mumbai.infura.io/v3/INFURA_API_KEY`), //TODO: pull infura api key from env file
       network_id: 80001,
       confirmations: 2,
       timeoutBlocks: 200,

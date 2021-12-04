@@ -1,17 +1,13 @@
 import Web3 from "web3";
 import Web3Modal from "web3modal";
 import ethProvider from "eth-provider";
-import Authereum from "authereum";
-//TODO: add walletLink support for coinbase wallet
+//TODO: add walletLink support for coinbase wallet - needed?
 
 const getWeb3 = () =>
   new Promise((resolve, reject) => {
     const providerOptions = {
       frame: {
         package: ethProvider
-      },
-      authereum: {
-        package: Authereum
       }
     };
 

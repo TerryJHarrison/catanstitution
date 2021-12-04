@@ -4,7 +4,6 @@ import {Button, Container, Dimmer, Divider, Loader} from "semantic-ui-react";
 const Loading = () => {
 
   const addNetwork = async () => {
-    console.info("adding network")
     try {
       return await window.ethereum.request({
         method: "wallet_addEthereumChain",
@@ -51,7 +50,7 @@ const Loading = () => {
             <Button onClick={addNetwork}>Add network</Button>
             <Button onClick={switchNetwork}>Switch network</Button>
           </p>
-          <p>Get Supplied: <a href="https://faucet.matic.network/">Faucet 1</a> or <a href="https://mcncheese.com/">Faucet 2</a></p>
+          <p>Get MATIC supplies at the <a href="https://faucet.polygon.technology/">faucet</a></p>
         </Loader>
       </Dimmer>
       <Divider/>
